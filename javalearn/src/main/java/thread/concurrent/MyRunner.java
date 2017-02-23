@@ -5,8 +5,8 @@ package thread.concurrent;
  */
 public class MyRunner implements Runnable {
     public void run() {
-        System.out.println(Thread.currentThread().getName() + "运行开始");
-        for (int i = 0; i < 1; i++) {
+        System.out.println(Thread.currentThread().getName() + "运行开始"+System.currentTimeMillis());
+        for (int i = 0; i < 2; i++) {
             try {
                 System.out.println(Thread.currentThread().getName() + "正在运行");
                 Thread.sleep(200);
