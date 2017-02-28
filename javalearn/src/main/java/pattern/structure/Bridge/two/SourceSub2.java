@@ -1,0 +1,14 @@
+package pattern.structure.Bridge.two;
+/**
+ * 实现类2
+ * @author Peng.lv
+ *
+ */
+public class SourceSub2 implements Sourceable {
+
+	@Override
+	public void method() {
+		System.out.println("this is the second sub!");
+	}
+
+}
