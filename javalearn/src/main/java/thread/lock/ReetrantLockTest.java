@@ -17,7 +17,6 @@ public class ReetrantLockTest {
 	public void testLock() {
 		for (int i = 0; i < 10; i++) {
 			Thread thread = new Thread(new Runnable() {
-				@Override
 				public void run() {
 					sayHello();
 				}
