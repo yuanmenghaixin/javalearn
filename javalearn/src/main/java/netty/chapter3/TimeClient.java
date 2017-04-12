@@ -18,6 +18,7 @@ public class TimeClient {
         //配置客戶端NIO線程組
         EventLoopGroup group = new NioEventLoopGroup();
         try {
+            //创建客户端辅助启动类Bootstrap，随后需要对其进行配置
             Bootstrap bootstrap = new Bootstrap();
             bootstrap.group(group).channel(NioSocketChannel.class).option(ChannelOption.TCP_NODELAY, true).handler(new ChannelInitializer<SocketChannel>() {
                 @Override
