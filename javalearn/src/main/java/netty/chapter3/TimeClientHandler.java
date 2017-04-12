@@ -22,10 +22,12 @@ public class TimeClientHandler extends ChannelHandlerAdapter{
     }
     @Override
     public void channelActive(ChannelHandlerContext ctx){
+        //调用channelActive方法，发送查询时间的指令给服务端，调用ChannelHandlerContext的writeAndFlush方法将请求消息发送给服务端
         ctx.writeAndFlush(firstMessage);
     }
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+        //当服务端返回应答消息时，channelRead方法被调用
         ByteBuf buf=(ByteBuf)msg;
         byte[] req=new byte[buf.readableBytes()];
         buf.readBytes(req);
