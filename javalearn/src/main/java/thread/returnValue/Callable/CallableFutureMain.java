@@ -7,8 +7,10 @@ import java.util.concurrent.*;
  * 　　在有些情况下，我们需要使用线程的返回值，在上述的所有代码中，线程这是执行了某些操作，没有任何返回值。
  * 　　如何做到这一点呢？我们可以使用JDK中的Callable<T>和CompletionService<T>，前者返回单个线程的结果，后者返回一组线程的结果。
  * 　　返回单个线程的结果
+ * FutureTask是Future和Callable的结合体。传统的代码是这样写的
+ * Future f = executor.submit(new Callable());
  */
-public class CallableMain {
+public class CallableFutureMain {
     private static void callableTest() throws InterruptedException, ExecutionException {
         ExecutorService exec = Executors.newFixedThreadPool(1);
         Callable<String> call = new Callable<String>() {
