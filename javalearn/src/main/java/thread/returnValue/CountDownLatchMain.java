@@ -6,7 +6,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 控制线程池中所有线程的执行步骤
+ * 控制线程池中所有线程的执行步骤：CountDownLatch减计数，允许一个或多个线程等待其他线程正在执行的一组操作完成
+ * 举例：有五个人，一个或者多个裁判。这五个人同时跑，裁判开始计时，五个人都到终点了，裁判喊停，然后统计这五个人从开始跑到最后一个撞线用了多长时间
  */
 public class CountDownLatchMain {
     //控制线程池中所有线程的执行步骤
