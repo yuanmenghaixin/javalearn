@@ -45,3 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+#忽略iml文件
+*.iml
+#忽略.idea文件夹
+.idea
+#忽略target文件夹
+target
+/target/
+/logs/
+/bin/
+*.classpath
+*.project
+*.gitignore
+*.settings/
