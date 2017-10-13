@@ -13,7 +13,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 /**
  * Created by Administrator on 2017/3/21.
  */
-public class TimeClient {
+public class TimeClientMain {
     public void connect(int port, String host) throws Exception {
         //配置客戶端NIO線程組
         EventLoopGroup group = new NioEventLoopGroup();
@@ -40,7 +40,7 @@ public class TimeClient {
         if (null != args && args.length > 0) {
             port = Integer.valueOf(args[0]);
         }
-        new TimeClient().connect(port,"127.0.0.1");
+        new TimeClientMain().connect(port,"127.0.0.1");
     }
 
 
