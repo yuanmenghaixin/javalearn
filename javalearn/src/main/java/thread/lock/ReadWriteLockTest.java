@@ -1,36 +1,37 @@
 package thread.lock;
 
 import java.util.Random;
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 
 public class ReadWriteLockTest {
     /**
-     * Ò»¸ö¿ÉÖØÈë¶ÁĞ´Ëø
+     * ä¸€ä¸ªå¯é‡å…¥è¯»å†™é”
      */
     private ReentrantReadWriteLock readWriteLock =new ReentrantReadWriteLock();
     /**
-     * ¶ÁËø
+     * è¯»é”
      */
     private ReadLock readLock =readWriteLock.readLock();
     /**
-     * Ğ´Ëø
+     * å†™é”
      */
     private WriteLock writeLock =readWriteLock.writeLock();
     /**
-     * ¹²Ïí×ÊÔ´
+     * å…±äº«èµ„æº
      */
-    private String shareData ="¼ÅÄ¯µÈ´ıÖĞ...";
+    private String shareData ="å¯‚å¯ç­‰å¾…ä¸­...";
 
     public void write(String str) throws InterruptedException {
 
         writeLock.lock();
-        System.err.println("ThreadName:"+Thread.currentThread().getName()+"locking...");
+        System.err.println("ThreadName:"+Thread.currentThread().getName()+"*********Write**********locking...");
         try {
             shareData = str;
-            System.err.println("ThreadName:" + Thread.currentThread().getName()+"ĞŞ¸ÄÎª"+str);
-            Thread.sleep(20);
+            System.err.println("ThreadName:" + Thread.currentThread().getName()+"ä¿®æ”¹ä¸º"+str);
+            Thread.sleep(2);
         }catch(InterruptedException e) {
             e.printStackTrace();
         }finally {
@@ -42,10 +43,10 @@ public class ReadWriteLockTest {
     public String read() {
 
         readLock.lock();
-        System.out.println("ThreadName:" + Thread.currentThread().getName()+"lock...");
+        System.out.println("ThreadName:" + Thread.currentThread().getName()+"----Read-----lock...");
         try {
-            System.out.println("ThreadName:"+Thread.currentThread().getName()+"»ñÈ¡Îª£º"+shareData);
-            Thread.sleep(1);
+            Thread.sleep(10000);
+            System.out.println("ThreadName:"+Thread.currentThread().getName()+"è·å–ä¸ºï¼š"+shareData);
         }catch(InterruptedException e) {
             e.printStackTrace();
         }finally {
@@ -57,24 +58,9 @@ public class ReadWriteLockTest {
 
     public static void main(String[] args) {
         final ReadWriteLockTest shareData =new ReadWriteLockTest();
-        /**
-         * Æğ50Ìõ¶ÁÏß³Ì
-         */
-        for(int i = 0; i < 50; i++) {
-            new Thread(new Runnable() {
-                public void run() {
-                    try {
-                        Thread.sleep(1);
-                    }catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    shareData.read();
-                }
-            },"get Thread-read"+i).start();
-        }
-
         for(int i = 0; i < 5; i++) {
             new Thread(new Runnable() {
+                @Override
                 public void run() {
                     try {
                         Thread.sleep(1);
@@ -89,5 +75,26 @@ public class ReadWriteLockTest {
                 }
             },"wirte Thread-write"+i).start();
         }
+        /**
+         * èµ·50æ¡è¯»çº¿ç¨‹
+         */
+        for(int i = 0; i < 50; i++) {
+            Thread aa =new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Thread.sleep(1);
+                    }catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    shareData.read();
+                }
+            },"get Thread-read"+i);
+            aa.start();
+
+
+        }
+
+
     }
 }

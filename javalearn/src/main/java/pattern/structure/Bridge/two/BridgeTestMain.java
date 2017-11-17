@@ -11,7 +11,7 @@ package pattern.structure.Bridge.two;
 public class BridgeTestMain {
 	public static void main(String[] args) {
 
-		Bridge bridge = new MyBridge();
+		AbstractBridge bridge = new MyBridge();
 
 		/* 调用第一个对象 */
 		Sourceable source1 = new SourceSub1();

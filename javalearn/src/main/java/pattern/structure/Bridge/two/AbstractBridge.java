@@ -4,7 +4,7 @@ package pattern.structure.Bridge.two;
  * @author Peng.lv
  *
  */
-public abstract class Bridge {
+public abstract class AbstractBridge {
 	private Sourceable source;
 
 	public void method() {
