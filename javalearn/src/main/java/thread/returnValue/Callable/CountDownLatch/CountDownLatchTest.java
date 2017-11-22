@@ -27,10 +27,10 @@ public class CountDownLatchTest {
         }
 
         System.out.println("judge say : run !");
-        begin.countDown();
+        begin.countDown();//这个函数用来将CountDownLatch的计数值减一
         long startTime = System.currentTimeMillis();
         try {
-            end.await();
+            end.await();//让线程阻塞等待其他线程，直到CountDownLatch的计数值变为0才继续执行之后的操作
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
@@ -59,7 +59,7 @@ class AWorker implements Runnable {
     public void run() {
         try {
             System.out.println(this.id + " ready !");
-            begin.await();
+            begin.await();//让线程阻塞等待其他线程，直到CountDownLatch的计数值变为0才继续执行之后的操作
            /* // run...
             Thread.sleep((long) (Math.random() * 10000));*/
         } catch (Throwable e) {

@@ -74,7 +74,7 @@ public class CountDownLatchDemo {
                     //必须有线程中显示的调用了countDown()计数-1方法；必须有线程显示调用了await()方法（没有这个就没有必要使用CountDownLatch了）
                     //由于await()方法会阻塞到计数为0，如果在代码逻辑中某个线程漏掉了计数-1，导致最终计数一直大于0，直接导致死锁了
                     //鉴于上面一点，更多的推荐await(long, TimeUnit)来替代直接使用await()方法，至少不会造成阻塞死只能重启的情况
-                    countDownLatch.await();
+                    countDownLatch.await();//让线程阻塞等待其他线程，直到CountDownLatch的计数值变为0才继续执行之后的操作
                     int ans=sum(tmpRes1,tmpRes2);
                     System.out.println(Thread.currentThread().getName()+":calculate ans:"+ans);
                 }catch(InterruptedException e){

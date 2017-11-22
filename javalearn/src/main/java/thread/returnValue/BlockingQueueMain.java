@@ -18,11 +18,12 @@ public class BlockingQueueMain {
     //对于生产者-消费者模型来说，我们应该都不会陌生，通常我们都会使用某种数据结构来实现它。在concurrent工具包中，我们可以使用BlockingQueue来实现生产者-消费者模型，
     //我们定义了两个线程，一个线程向Queue中添加数据，一个线程从Queue中取数据。我们可以通过控制maxSleepTimeForSetter和maxSleepTimerForGetter的值，来使得程序得出不同的结果
     private static void blockingQueueTest() {
-        final BlockingQueue<Integer> queue = new LinkedBlockingQueue<Integer>();
+        final BlockingQueue<Integer> queue = new LinkedBlockingQueue<Integer>();//线程安全通过可重入锁实现ReentrantLock
         final int maxSleepTimeForSetter = 10;
         final int maxSleepTimerForGetter = 10;
 
         Runnable setter = new Runnable() {
+            @Override
             public void run() {
                 Random r = new Random();
                 while (true) {
@@ -39,6 +40,7 @@ public class BlockingQueueMain {
         };
 
         Runnable getter = new Runnable() {
+            @Override
             public void run() {
                 Random r = new Random();
                 while (true) {
