@@ -1,11 +1,10 @@
-package thread.returnValue;
+package thread.synchronize.barrier.cyclicBarrier;
 
 import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- * 重复使用体现CyclicBarrier可以循环使用的特点
  * CyclicBarrier主要用于一组固定大小的线程之间，各个线程之间相互等待，当所有线程都完成某项任务之后，才能执行之后的任务
  * 如下场景：
  * 有若干个线程都需要向一个数据库写数据，但是必须要所有的线程都讲数据写入完毕他们才能继续做之后的事情。
@@ -14,12 +13,18 @@ import java.util.concurrent.CyclicBarrier;
  * 各个线程需要相互等待，不能独善其身。
  * 这种场景便可以利用CyclicBarrier来完美解决。
  * Created by Peng.lv on 2017/11/22.
+ * 总结
+ CountDownLatch和CyclicBarrier都能够实现线程之间的等待，只不过它们侧重点不同：
+
+ CountDownLatch一般用于某个线程A等待若干个其他线程执行完任务之后，它才执行；
+ CyclicBarrier一般用于一组线程互相等待至某个状态，然后这一组线程再同时执行；
+ CountDownLatch是不能够重用的，而CyclicBarrier是可以重用的。
  */
-public class CyclicBarrier_ResueTest {
+public class CyclicBarrierTest {
     private static final int THREAD_NUMBER = 5;
     private static final Random RANDOM = new Random();
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         //构造函数public CyclicBarrier(int parties, Runnable barrierAction)参数parties表示一共有多少线程参与这次“活动”，参数barrierAction是可选的，用来指定当所有线程都完成这些必须的“神秘任务”之后需要干的事情，所以barrierAction这里的动作在一个相互等待的循环内只会执行一次。
         CyclicBarrier barrier = new CyclicBarrier(THREAD_NUMBER, new Runnable() {
             @Override
@@ -27,12 +32,6 @@ public class CyclicBarrier_ResueTest {
                 System.out.println(Thread.currentThread().getId() + "：我宣布，所有小伙伴写入数据完毕");
             }
         });
-        for (int i = 0; i < THREAD_NUMBER; i++) {
-            Thread t = new Thread(new Worker(barrier));
-            t.start();
-        }
-        Thread.sleep(10000);
-        System.out.println("================barrier重用==========================");
         for (int i = 0; i < THREAD_NUMBER; i++) {
             Thread t = new Thread(new Worker(barrier));
             t.start();

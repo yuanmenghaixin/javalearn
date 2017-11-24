@@ -1,4 +1,4 @@
-package thread.returnValue.Callable.CountDownLatch;
+package thread.synchronize.barrier.CountDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 

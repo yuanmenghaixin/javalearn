@@ -1,8 +1,5 @@
 package thread.lock.conditionLock;
 
-import thread.returnValue.Callable.CountDownLatch.CountDownLatchDemo;
-
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

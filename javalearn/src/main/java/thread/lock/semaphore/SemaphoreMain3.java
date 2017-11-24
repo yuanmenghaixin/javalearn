@@ -1,4 +1,4 @@
-package thread.returnValue;
+package thread.lock.semaphore;
 
 import java.util.Date;
 import java.util.concurrent.ExecutionException;
@@ -9,7 +9,7 @@ import java.util.concurrent.Semaphore;
 /**
  * 使用信号量来控制线程
  */
-public class SemaphoreMain {
+public class SemaphoreMain3 {
     //使用信号量来控制线程
     //JDK提供了Semaphore来实现“信号量”的功能，它提供了两个方法分别用于获取和释放信号量：acquire和release，
     public static void main(String[] args) throws ExecutionException, InterruptedException {

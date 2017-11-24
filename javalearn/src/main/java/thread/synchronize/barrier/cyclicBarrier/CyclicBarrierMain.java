@@ -1,4 +1,6 @@
-package thread.returnValue;
+package thread.synchronize.barrier.cyclicBarrier;
+
+import thread.returnValue.MyRunner2;
 
 import java.util.Date;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package thread.returnValue.Callable.CountDownLatch;
+package thread.synchronize.barrier.CountDownLatch;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
@@ -22,6 +22,7 @@ public class CountDownLatchMain {
         ExecutorService exec = Executors.newFixedThreadPool(5);
         for (int i = 0; i < 5; i++) {
             Runnable runner = new Runnable() {
+                @Override
                 public void run() {
                     Random r = new Random();
                     try {

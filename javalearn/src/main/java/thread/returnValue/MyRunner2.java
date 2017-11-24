@@ -14,13 +14,14 @@ public class MyRunner2 implements Runnable {
         this.barrier = barrier;
     }
 
+    @Override
     public void run() {
         Random r = new Random();
         try {
             for (int i = 0; i < 3; i++) {
                 Thread.sleep(r.nextInt(10) * 1000);
                 System.out.println(new Date() + "--" + Thread.currentThread().getName() + "--第" + (i + 1) + "次等待。");
-                barrier.await();
+                barrier.await();// await函数用来执行等待操作，等待所有线程都调用过此函数才能进行后续动作,
             }
         } catch (Exception ex) {
             ex.printStackTrace();
