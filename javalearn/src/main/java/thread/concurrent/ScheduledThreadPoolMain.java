@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 　这和我们平时使用的ScheduledTask比较类似，或者说很像Timer，它可以使得一个线程在指定的一段时间内开始运行，并且在间隔另外一段时间后再次运行，直到线程池关闭。
  */
-public class scheduledThreadPoolMain {
+public class ScheduledThreadPoolMain {
     private static void scheduledThreadPoolTest() {
         final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(3);
         MyRunner runner = new MyRunner();
