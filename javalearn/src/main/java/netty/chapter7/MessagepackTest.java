@@ -1,7 +1,7 @@
 package netty.chapter7;
 
-import org.msgpack.MessagePack;
-import org.msgpack.template.Templates;
+/*import org.msgpack.MessagePack;
+import org.msgpack.template.Templates;*/
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class MessagepackTest {
     public static void main(String[] args){
-        List<String> src=new ArrayList<String>();
+       /* List<String> src=new ArrayList<String>();
         src.add("ERTYUIOAQ");
         src.add("rghjkoiuh");
         src.add("TGHJIYHJyygf");
@@ -27,6 +27,6 @@ public class MessagepackTest {
             System.out.println(dst1.get(2));
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }

@@ -4,7 +4,7 @@ package crawler;
  * Created by Administrator on 2017/2/12.
  * 发布到release版本
  */
-import java.io.IOException;
+/*import java.io.IOException;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.HttpVersion;
@@ -12,9 +12,9 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.util.EntityUtils;
+import org.apache.http.util.EntityUtils;*/
 public class httpTest {
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         HttpClient client = new DefaultHttpClient();   //初始化httpclient
         String personalUrl="http://www.autohome.com.cn/beijing/";     //指定一个种子url
         HttpGet postMethod = new HttpGet(personalUrl);   //post方法请求
@@ -38,6 +38,6 @@ public class httpTest {
             //关闭HttpEntity的流实体
             EntityUtils.consume(response.getEntity());        //消耗实体
         }
-    }
+    }*/
 
 }

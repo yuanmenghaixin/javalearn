@@ -1,7 +1,5 @@
 package thread.lock.atomic;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -59,7 +57,7 @@ public class TestAtomic {
 
 
     }
-    @Test
+
     public void testSync() throws InterruptedException {
         ExecutorService exe = Executors.newFixedThreadPool(MAX_THREADS);
         long startTime = System.currentTimeMillis();
@@ -69,7 +67,8 @@ public class TestAtomic {
         }
         Thread.sleep(10000);
     }
-    @Test
+
+
     public void testAtomic() throws InterruptedException {
         ExecutorService exe = Executors.newFixedThreadPool(MAX_THREADS);
         long startTime = System.currentTimeMillis();
