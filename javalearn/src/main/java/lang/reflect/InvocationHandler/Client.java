@@ -21,7 +21,7 @@ public class Client {
         //以下是一次性生成代理
 
         Subject subject=(Subject) Proxy.newProxyInstance(cls.getClassLoader(),cls.getInterfaces(), ds);
-        Subject subject2=(Subject) Proxy.newProxyInstance(cls.getClassLoader(),cls.getInterfaces(), ds);
+       // Subject subject2=(Subject) Proxy.newProxyInstance(cls.getClassLoader(),cls.getInterfaces(), ds);
 
         //这里可以通过运行结果证明subject是Proxy的一个实例，这个实例实现了Subject接口
         System.out.println(subject instanceof Proxy);
