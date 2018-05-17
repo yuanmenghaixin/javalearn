@@ -13,6 +13,7 @@ public class GZipRunnable implements Runnable{
         this.input = input;
     }
 
+    @Override
     public void run() {
         //不压缩已经压缩的文件
         if(!input.getName().endsWith(".giz")){

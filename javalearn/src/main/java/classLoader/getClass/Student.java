@@ -4,6 +4,18 @@ package classLoader.getClass;
  * Created by Peng.lv on 2018/4/28.
  */
 public class Student {
+    //**********字段*************//
+    public String name;
+    protected int age;
+    char sex;
+    private String phoneNum;
+
+    @Override
+    public String toString() {
+        return "Student [name=" + name + ", age=" + age + ", sex=" + sex
+                + ", phoneNum=" + phoneNum + "]";
+    }
+
     //（默认的构造方法）
     Student(String str){
         System.out.println("(默认)的构造方法 s = " + str);
@@ -32,5 +44,37 @@ public class Student {
     //私有构造方法
     private Student(int age){
         System.out.println("私有的构造方法   年龄："+ age);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
+        this.sex = sex;
+    }
+
+    public String getPhoneNum() {
+        return phoneNum;
+    }
+
+    public void setPhoneNum(String phoneNum) {
+        this.phoneNum = phoneNum;
     }
 }
