@@ -9,6 +9,8 @@ public class StrategyMain {
 	        String exp = "2+8";  
 	        ICalculator cal = new Plus();  
 	        int result = cal.calculate(exp);  
-	        System.out.println(result);  
-	    }  
+	        System.out.println(result);
+	        double x=0.1;
+		 System.out.printf("exp(%.3f) 为 %.3f%n", x, Math.exp(x));
+	 }
 }
