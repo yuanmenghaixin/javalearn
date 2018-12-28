@@ -1,4 +1,4 @@
-package pattern.create.Builder.two;
+package pattern.structure.Builder.two;
 
 import pattern.create.Factory.FactorySimple.one.MailSender;
 import pattern.create.Factory.FactorySimple.one.Sender;

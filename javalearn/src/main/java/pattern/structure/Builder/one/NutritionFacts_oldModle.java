@@ -1,4 +1,4 @@
-package pattern.create.Builder.one;
+package pattern.structure.Builder.one;
 
 public class NutritionFacts_oldModle {
 	// 用一个类表示包装食品外面显示的营养成分，其中每份含量和每罐含量是必须的，卡洛里，脂肪，纳和碳水化合物是可选参数。

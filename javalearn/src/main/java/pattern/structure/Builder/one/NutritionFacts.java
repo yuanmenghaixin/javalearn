@@ -1,4 +1,4 @@
-package pattern.create.Builder.one;
+package pattern.structure.Builder.one;
 
 /**
  * Builder建造者模式将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。Builder模式是一步一步创建一个复杂的对象，

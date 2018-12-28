@@ -1,4 +1,4 @@
-package pattern.create.Builder.one;
+package pattern.structure.Builder.one;
 /**
  * Builder建造者模式和AbstraceFactory抽象工厂模式的区别：
 Builder建造者模式和AbstraceFactory抽象工厂模式非常类似，很多人经常分不清楚，区别如下：
