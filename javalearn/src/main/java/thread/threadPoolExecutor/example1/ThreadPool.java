@@ -11,7 +11,7 @@ public class ThreadPool {
 
     private static final long KEEP_ALIVE_TIME = 30;
 
-    private static final int QUEUE_SIZE = 2000000;
+    private static final int QUEUE_SIZE = 10;
 
     private static ThreadPoolExecutor threadPool = new ThreadPoolExecutor(CORE_SIZE, MAX_SIZE, KEEP_ALIVE_TIME,
             TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(QUEUE_SIZE), new ThreadPoolExecutor.AbortPolicy());
