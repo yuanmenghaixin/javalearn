@@ -1,10 +1,10 @@
-package test.run;
+package multithreaded.chapter03.stack_2_old.src.test.run;
 
-import service.C;
-import service.P;
-import entity.MyStack;
-import extthread.C_Thread;
-import extthread.P_Thread;
+import multithreaded.chapter03.stack_1.src.service.C;
+import multithreaded.chapter03.stack_1.src.service.P;
+import multithreaded.chapter03.stack_1.src.entity.MyStack;
+import multithreaded.chapter03.stack_1.src.extthread.C_Thread;
+import multithreaded.chapter03.stack_1.src.extthread.P_Thread;
 
 public class Run {
 	public static void main(String[] args) throws InterruptedException {

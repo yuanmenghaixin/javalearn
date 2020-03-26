@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.ConditionTestManyToMany.src.service;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -13,10 +13,10 @@ public class MyService {
 		try {
 			lock.lock();
 			while (hasValue == true) {
-				System.out.println("ÓÐ¿ÉÄÜ¡ï¡ïÁ¬Ðø");
+				System.out.println("ï¿½Ð¿ï¿½ï¿½Ü¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 				condition.await();
 			}
-			System.out.println("´òÓ¡¡ï");
+			System.out.println("ï¿½ï¿½Ó¡ï¿½ï¿½");
 			hasValue = true;
 			condition.signalAll();
 		} catch (InterruptedException e) {
@@ -30,10 +30,10 @@ public class MyService {
 		try {
 			lock.lock();
 			while (hasValue == false) {
-				System.out.println("ÓÐ¿ÉÄÜ¡î¡îÁ¬Ðø");
+				System.out.println("ï¿½Ð¿ï¿½ï¿½Ü¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 				condition.await();
 			}
-			System.out.println("´òÓ¡¡î");
+			System.out.println("ï¿½ï¿½Ó¡ï¿½ï¿½");
 			hasValue = false;
 			condition.signalAll();
 		} catch (InterruptedException e) {

@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter07.stateTest4.src.extthread;
 
-import service.Lock;
+import multithreaded.chapter07.stateTest4.src.service.Lock;
 
 public class MyThread extends Thread {
 

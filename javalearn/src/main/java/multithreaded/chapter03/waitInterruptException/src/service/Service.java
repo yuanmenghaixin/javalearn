@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter03.waitInterruptException.src.service;
 
 public class Service {
 
@@ -11,7 +11,7 @@ public class Service {
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-			System.out.println("出现异常了，因为呈wait状态的线程被interrupt了！");
+			System.out.println("锟斤拷锟斤拷锟届常锟剿ｏ拷锟斤拷为锟斤拷wait状态锟斤拷锟竭程憋拷interrupt锟剿ｏ拷");
 		}
 	}
 

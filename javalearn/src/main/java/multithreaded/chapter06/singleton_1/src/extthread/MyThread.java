@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter06.singleton_1.src.extthread;
 
-import test.MyObject;
+import multithreaded.chapter06.singleton_0.src.test.MyObject;
 
 public class MyThread extends Thread {
 

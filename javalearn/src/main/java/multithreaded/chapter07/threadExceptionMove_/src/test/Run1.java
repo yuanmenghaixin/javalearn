@@ -1,8 +1,7 @@
-package test;
+package multithreaded.chapter07.threadExceptionMove_.src.test;
 
-import test.extUncaughtExceptionHandler.ObjectUncaughtExceptionHandler;
-import test.extUncaughtExceptionHandler.StateUncaughtExceptionHandler;
-import extthread.MyThread;
+import multithreaded.chapter07.threadExceptionMove_.src.test.extUncaughtExceptionHandler.StateUncaughtExceptionHandler;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Run1 {
 

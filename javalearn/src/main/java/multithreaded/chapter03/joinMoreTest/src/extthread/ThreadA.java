@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.joinMoreTest.src.extthread;
 
 public class ThreadA extends Thread {
 	private ThreadB b;

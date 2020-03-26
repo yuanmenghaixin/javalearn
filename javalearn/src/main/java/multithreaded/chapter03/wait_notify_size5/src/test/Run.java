@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter03.wait_notify_size5.src.test;
 
-import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
-import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadB;
+import multithreaded.chapter03.wait_notify_size5.src.extthread.ThreadA;
+import multithreaded.chapter03.wait_notify_size5.src.extthread.ThreadB;
 
 public class Run {
 

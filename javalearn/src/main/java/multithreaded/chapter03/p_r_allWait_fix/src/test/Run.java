@@ -1,9 +1,9 @@
-package test;
+package multithreaded.chapter03.p_r_allWait_fix.src.test;
 
-import entity.P;
-import entity.C;
-import extthread.ThreadP;
-import extthread.ThreadR;
+import multithreaded.chapter03.p_r_allWait.src.entity.P;
+import multithreaded.chapter03.p_r_allWait.src.entity.C;
+import multithreaded.chapter03.p_r_allWait.src.extthread.ThreadP;
+import multithreaded.chapter03.p_r_allWait_fix.src.extthread.ThreadR;
 
 public class Run {
 

@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter03.pipeReaderWriter.src.service;
 
 import java.io.IOException;
 import java.io.PipedReader;

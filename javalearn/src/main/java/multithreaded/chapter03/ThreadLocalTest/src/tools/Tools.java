@@ -1,4 +1,4 @@
-package tools;
+package multithreaded.chapter03.ThreadLocalTest.src.tools;
 
 public class Tools {
 

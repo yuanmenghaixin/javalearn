@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter07.formatError.src.extthread;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,7 +22,7 @@ public class MyThread extends Thread {
 			String newDateString = sdf.format(dateRef).toString();
 			if (!newDateString.equals(dateString)) {
 				System.out.println("ThreadName=" + this.getName()
-						+ "±¨´íÁË ÈÕÆÚ×Ö·û´®£º" + dateString + " ×ª»»³ÉµÄÈÕÆÚÎª£º"
+						+ "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½" + dateString + " ×ªï¿½ï¿½ï¿½Éµï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½"
 						+ newDateString);
 			}
 		} catch (ParseException e) {

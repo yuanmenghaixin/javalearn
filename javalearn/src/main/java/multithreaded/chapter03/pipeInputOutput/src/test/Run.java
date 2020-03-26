@@ -1,13 +1,13 @@
-package test;
+package multithreaded.chapter03.pipeInputOutput.src.test;
 
 import java.io.IOException;
 import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 
-import service.ReadData;
-import service.WriteData;
-import extthread.ThreadRead;
-import extthread.ThreadWrite;
+import multithreaded.chapter03.pipeInputOutput.src.extthread.ThreadRead;
+import multithreaded.chapter03.pipeInputOutput.src.extthread.ThreadWrite;
+import multithreaded.chapter03.pipeInputOutput.src.service.ReadData;
+import multithreaded.chapter03.pipeInputOutput.src.service.WriteData;
 
 public class Run {
 

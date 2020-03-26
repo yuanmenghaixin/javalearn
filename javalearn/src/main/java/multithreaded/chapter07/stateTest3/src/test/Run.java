@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter07.stateTest3.src.test;
 
-import extthread.MyThread1;
-import extthread.MyThread2;
+import multithreaded.chapter03.test2.src.extthread.MyThread1;
+import multithreaded.chapter03.test2.src.extthread.MyThread2;
 
 public class Run {
 

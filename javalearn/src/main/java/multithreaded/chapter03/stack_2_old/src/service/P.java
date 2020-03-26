@@ -1,6 +1,6 @@
-package service;
+package multithreaded.chapter03.stack_2_old.src.service;
 
-import entity.MyStack;
+import multithreaded.chapter03.stack_1.src.entity.MyStack;
 
 public class P {
 

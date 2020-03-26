@@ -1,17 +1,17 @@
-package test;
+package multithreaded.chapter06.singleton_1.src.test;
 
 public class MyObject {
 
-	private static MyObject myObject;
+	private static multithreaded.chapter06.singleton_0.src.test.MyObject myObject;
 
 	private MyObject() {
 	}
 
-	public static MyObject getInstance() {
-		// ясЁы╪сть
+	public static multithreaded.chapter06.singleton_0.src.test.MyObject getInstance() {
+		// О©╫сЁы╪О©╫О©╫О©╫
 		if (myObject != null) {
 		} else {
-			myObject = new MyObject();
+			myObject = new multithreaded.chapter06.singleton_0.src.test.MyObject();
 		}
 		return myObject;
 	}

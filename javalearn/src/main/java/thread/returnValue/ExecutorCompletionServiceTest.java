@@ -9,7 +9,7 @@ import java.util.concurrent.*;
 public class ExecutorCompletionServiceTest {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         int num = 9;
-        ExecutorCompletionService<String> executorCompletionService = new ExecutorCompletionService<>(MyThreadPool.getExecutor());
+        ExecutorCompletionService<String> executorCompletionService = new ExecutorCompletionService<String>(MyThreadPool.getExecutor());
         for(int i=0;i<=num;i++){
             Thread.sleep(100l);
             executorCompletionService.submit(new Task(i));
@@ -36,7 +36,6 @@ public class ExecutorCompletionServiceTest {
         Task(int i){
             this.i = i;
         }
-        @Override
         public String call() throws Exception {
             Thread.sleep(1000l);
             return Thread.currentThread().getName() + "任务 :" +i;

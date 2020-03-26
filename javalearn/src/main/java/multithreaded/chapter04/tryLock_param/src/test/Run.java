@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter04.tryLock_param.src.test;
 
-import service.MyService;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.service.MyService;
 
 public class Run {
 
@@ -11,7 +11,7 @@ public class Run {
 			@Override
 			public void run() {
 				System.out.println(Thread.currentThread().getName()
-						+ "调用waitMethod时间：" + System.currentTimeMillis());
+						+ "锟斤拷锟斤拷waitMethod时锟戒：" + System.currentTimeMillis());
 				service.waitMethod();
 			}
 		};

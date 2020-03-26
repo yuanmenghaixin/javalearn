@@ -1,25 +1,25 @@
-package controller;
+package multithreaded.chapter07.threadCreateException.src.controller;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Main2 {
 
 	public static void main(String[] args) {
 		MyThread t1 = new MyThread();
-		t1.setName("Ïß³Ìt1");
+		t1.setName("ï¿½ß³ï¿½t1");
 		t1.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
 			@Override
 			public void uncaughtException(Thread t, Throwable e) {
-				System.out.println("Ïß³Ì:" + t.getName() + " ³öÏÖÁËÒì³££º");
+				System.out.println("ï¿½ß³ï¿½:" + t.getName() + " ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½");
 				e.printStackTrace();
 			}
 		});
 		t1.start();
 
 		MyThread t2 = new MyThread();
-		t2.setName("Ïß³Ìt2");
+		t2.setName("ï¿½ß³ï¿½t2");
 		t2.start();
 	}
 }

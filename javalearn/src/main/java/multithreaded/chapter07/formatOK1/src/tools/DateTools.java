@@ -1,4 +1,4 @@
-package tools;
+package multithreaded.chapter07.formatOK1.src.tools;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

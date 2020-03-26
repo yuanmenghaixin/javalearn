@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.z3_ok.src.service;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -17,7 +17,7 @@ public class MyService {
 			e.printStackTrace();
 		} finally {
 			lock.unlock();
-			System.out.println("ËøÊÍ·ÅÁË£¡");
+			System.out.println("ï¿½ï¿½ï¿½Í·ï¿½ï¿½Ë£ï¿½");
 		}
 	}
 }

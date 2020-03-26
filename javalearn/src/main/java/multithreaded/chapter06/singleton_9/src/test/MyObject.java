@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter06.singleton_9.src.test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,7 +11,7 @@ public enum MyObject {
 
 	private MyObject() {
 		try {
-			System.out.println("µ÷ÓÃÁËMyObjectµÄ¹¹Ôì");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½MyObjectï¿½Ä¹ï¿½ï¿½ï¿½");
 			String url = "jdbc:sqlserver://localhost:1079;databaseName=ghydb";
 			String username = "sa";
 			String password = "";

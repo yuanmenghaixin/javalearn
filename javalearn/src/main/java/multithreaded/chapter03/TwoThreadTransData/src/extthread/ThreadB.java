@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.TwoThreadTransData.src.extthread;
 
-import mylist.MyList;
+import multithreaded.chapter03.TwoThreadTransData.src.mylist.MyList;
 
 public class ThreadB extends Thread {
 
@@ -16,7 +16,7 @@ public class ThreadB extends Thread {
 		try {
 			while (true) {
 				if (list.size() == 5) {
-					System.out.println("==5ÁË£¬Ïß³ÌbÒªÍË³öÁË£¡");
+					System.out.println("==5ï¿½Ë£ï¿½ï¿½ß³ï¿½bÒªï¿½Ë³ï¿½ï¿½Ë£ï¿½");
 					throw new InterruptedException();
 				}
 			}

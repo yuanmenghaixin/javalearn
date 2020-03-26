@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.waitOld.src.extthread;
 
-import entity.Subtract;
+import multithreaded.chapter03.waitOld.src.entity.Subtract;
 
 public class ThreadSubtract extends Thread {
 

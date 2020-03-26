@@ -1,6 +1,6 @@
-package entity;
+package multithreaded.chapter03.waitOld.src.entity;
 
-//¼Ó·¨
+//ï¿½Ó·ï¿½
 public class Add {
 
 	private String lock;

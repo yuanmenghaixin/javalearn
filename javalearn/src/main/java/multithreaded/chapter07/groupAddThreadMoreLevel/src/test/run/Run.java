@@ -1,12 +1,12 @@
-package test.run;
+package multithreaded.chapter07.groupAddThreadMoreLevel.src.test.run;
 
 public class Run {
 
 	public static void main(String[] args) {
 
-		// ÔÚmain×éÖĞÌí¼ÓÒ»¸öÏß³Ì×éA£¬È»ºóÔÚÕâ¸öA×éÖĞÌí¼ÓÏß³Ì¶ÔÏóZ
-		// ·½·¨activeGroupCount()ºÍactiveCount()µÄÖµ²»ÊÇ¹Ì¶¨µÄ
-		// ÊÇÏµÍ³ÖĞ»·¾³µÄÒ»¸ö¿ìÕÕ
+		// ï¿½ï¿½mainï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½Aï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì¶ï¿½ï¿½ï¿½Z
+		// ï¿½ï¿½ï¿½ï¿½activeGroupCount()ï¿½ï¿½activeCount()ï¿½ï¿½Öµï¿½ï¿½ï¿½Ç¹Ì¶ï¿½ï¿½ï¿½
+		// ï¿½ï¿½ÏµÍ³ï¿½Ğ»ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		ThreadGroup mainGroup = Thread.currentThread().getThreadGroup();
 		ThreadGroup group = new ThreadGroup(mainGroup, "A");
 		Runnable runnable = new Runnable() {
@@ -14,7 +14,7 @@ public class Run {
 			public void run() {
 				try {
 					System.out.println("runMethod!");
-					Thread.sleep(10000);// Ïß³Ì±ØĞëÔÚÔËĞĞ×´Ì¬²Å¿ÉÒÔÊÜ×é¹ÜÀí
+					Thread.sleep(10000);// ï¿½ß³Ì±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½Å¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -24,12 +24,12 @@ public class Run {
 
 		Thread newThread = new Thread(group, runnable);
 		newThread.setName("Z");
-		newThread.start();// Ïß³Ì±ØĞëÆô¶¯È»ºó²Å¹éµ½×éAÖĞ
+		newThread.start();// ï¿½ß³Ì±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½Å¹éµ½ï¿½ï¿½Aï¿½ï¿½
 		// ///
 		ThreadGroup[] listGroup = new ThreadGroup[Thread.currentThread()
 				.getThreadGroup().activeGroupCount()];
 		Thread.currentThread().getThreadGroup().enumerate(listGroup);
-		System.out.println("mainÏß³ÌÖĞÓĞ¶àÉÙ¸ö×ÓÏß³Ì×é£º" + listGroup.length + " Ãû×ÖÎª£º"
+		System.out.println("mainï¿½ß³ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½ï¿½Ù¸ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½é£º" + listGroup.length + " ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½"
 				+ listGroup[0].getName());
 		Thread[] listThread = new Thread[listGroup[0].activeCount()];
 		listGroup[0].enumerate(listThread);

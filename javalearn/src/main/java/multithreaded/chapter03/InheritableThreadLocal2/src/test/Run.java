@@ -1,14 +1,14 @@
-package test;
+package multithreaded.chapter03.InheritableThreadLocal2.src.test;
 
-import tools.Tools;
-import extthread.ThreadA;
+import multithreaded.chapter03.InheritableThreadLocal1.src.tools.Tools;
+import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
 
 public class Run {
 
 	public static void main(String[] args) {
 		try {
 			for (int i = 0; i < 10; i++) {
-				System.out.println("       在Main线程中取值=" + Tools.tl.get());
+				System.out.println("       锟斤拷Main锟竭筹拷锟斤拷取值=" + Tools.tl.get());
 				Thread.sleep(100);
 			}
 			Thread.sleep(5000);

@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter03.test1.src.test;
 
 public class Test1 {
 	public static void main(String[] args) {

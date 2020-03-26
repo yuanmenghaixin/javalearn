@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter03.notifyHoldLock.src.service;
 
 public class Service {
 

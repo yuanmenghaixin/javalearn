@@ -1,10 +1,10 @@
-package extthread;
+package multithreaded.chapter07.formatOK2.src.extthread;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import tools.DateTools;
+import multithreaded.chapter07.formatOK1.src.tools.DateTools;
 
 public class MyThread extends Thread {
 
@@ -26,7 +26,7 @@ public class MyThread extends Thread {
 					.format(dateRef).toString();
 			if (!newDateString.equals(dateString)) {
 				System.out.println("ThreadName=" + this.getName()
-						+ "±¨´íÁË ÈÕÆÚ×Ö·û´®£º" + dateString + " ×ª»»³ÉµÄÈÕÆÚÎª£º"
+						+ "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½" + dateString + " ×ªï¿½ï¿½ï¿½Éµï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½"
 						+ newDateString);
 			}
 		} catch (ParseException e) {

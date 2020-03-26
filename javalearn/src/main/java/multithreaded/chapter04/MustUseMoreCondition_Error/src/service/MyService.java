@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.MustUseMoreCondition_Error.src.service;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -12,10 +12,10 @@ public class MyService {
 	public void awaitA() {
 		try {
 			lock.lock();
-			System.out.println("begin awaitA时间为" + System.currentTimeMillis()
+			System.out.println("begin awaitA时锟斤拷为" + System.currentTimeMillis()
 					+ " ThreadName=" + Thread.currentThread().getName());
 			condition.await();
-			System.out.println("  end awaitA时间为" + System.currentTimeMillis()
+			System.out.println("  end awaitA时锟斤拷为" + System.currentTimeMillis()
 					+ " ThreadName=" + Thread.currentThread().getName());
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -27,10 +27,10 @@ public class MyService {
 	public void awaitB() {
 		try {
 			lock.lock();
-			System.out.println("begin awaitB时间为" + System.currentTimeMillis()
+			System.out.println("begin awaitB时锟斤拷为" + System.currentTimeMillis()
 					+ " ThreadName=" + Thread.currentThread().getName());
 			condition.await();
-			System.out.println("  end awaitB时间为" + System.currentTimeMillis()
+			System.out.println("  end awaitB时锟斤拷为" + System.currentTimeMillis()
 					+ " ThreadName=" + Thread.currentThread().getName());
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -42,7 +42,7 @@ public class MyService {
 	public void signalAll() {
 		try {
 			lock.lock();
-			System.out.println("  signalAll时间为" + System.currentTimeMillis()
+			System.out.println("  signalAll时锟斤拷为" + System.currentTimeMillis()
 					+ " ThreadName=" + Thread.currentThread().getName());
 			condition.signalAll();
 		} finally {

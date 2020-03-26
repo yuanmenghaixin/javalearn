@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter04.ReentrantLockTest.src.extthread;
 
-import service.MyService;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.service.MyService;
 
 public class MyThread extends Thread {
 

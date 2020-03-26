@@ -1,4 +1,4 @@
-package mythread;
+package multithreaded.chapter07.groupInnerStop.src.mythread;
 
 public class MyThread extends Thread {
 
@@ -9,11 +9,11 @@ public class MyThread extends Thread {
 	@Override
 	public void run() {
 		System.out.println("ThreadName=" + Thread.currentThread().getName()
-				+ "×¼±¸¿ªÊ¼ËÀÑ­»·ÁË£º)");
+				+ "×¼ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½Ë£ï¿½)");
 		while (!this.isInterrupted()) {
 		}
 		System.out.println("ThreadName=" + Thread.currentThread().getName()
-				+ "½áÊøÁË£º)");
+				+ "ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½)");
 	}
 
 }

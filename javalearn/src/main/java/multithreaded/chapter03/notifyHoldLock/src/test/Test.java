@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter03.notifyHoldLock.src.test;
 
-import extthread.NotifyThread;
-import extthread.ThreadA;
-import extthread.synNotifyMethodThread;
+import multithreaded.chapter03.notifyAll.src.extthread.NotifyThread;
+import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
+import multithreaded.chapter03.notifyHoldLock.src.extthread.synNotifyMethodThread;
 
 public class Test {
 

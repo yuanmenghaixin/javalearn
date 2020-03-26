@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter04.ConditionTestMoreMethod.src.extthread;
 
-import service.MyService;
+import multithreaded.chapter04.ConditionTestMoreMethod.src.service.MyService;
 
 public class ThreadBB extends Thread {
 

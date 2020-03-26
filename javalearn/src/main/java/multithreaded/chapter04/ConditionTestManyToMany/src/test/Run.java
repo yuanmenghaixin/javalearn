@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter04.ConditionTestManyToMany.src.test;
 
-import service.MyService;
-import extthread.MyThreadA;
-import extthread.MyThreadB;
+import multithreaded.chapter04.ConditionTestManyToMany.src.service.MyService;
+import multithreaded.chapter04.ConditionTestManyToMany.src.extthread.MyThreadA;
+import multithreaded.chapter04.ConditionTestManyToMany.src.extthread.MyThreadB;
 
 public class Run {
 

@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.notifyAll.src.extthread;
 
 
 public class NotifyThread extends Thread {

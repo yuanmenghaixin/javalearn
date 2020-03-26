@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.UseConditionWaitNotifyError.src.service;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

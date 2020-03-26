@@ -1,8 +1,8 @@
-package extthread;
+package multithreaded.chapter03.pipeInputOutput.src.extthread;
 
 import java.io.PipedOutputStream;
 
-import service.WriteData;
+import multithreaded.chapter03.pipeInputOutput.src.service.WriteData;
 
 public class ThreadWrite extends Thread {
 

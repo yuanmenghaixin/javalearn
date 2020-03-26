@@ -1,4 +1,4 @@
-package entity;
+package multithreaded.chapter03.p_r_allWait.src.entity;
 
 //生产者
 public class P {

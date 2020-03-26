@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter04.ConditionTestManyToMany.src.extthread;
 
-import service.MyService;
+import multithreaded.chapter04.ConditionTestManyToMany.src.service.MyService;
 
 public class MyThreadA extends Thread {
 

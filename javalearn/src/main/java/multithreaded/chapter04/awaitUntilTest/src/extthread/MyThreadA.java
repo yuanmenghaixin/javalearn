@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter04.awaitUntilTest.src.extthread;
 
-import service.Service;
+import multithreaded.chapter04.awaitUntilTest.src.service.Service;
 
 public class MyThreadA extends Thread {
 

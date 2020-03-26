@@ -1,4 +1,4 @@
-package test.extUncaughtExceptionHandler;
+package multithreaded.chapter07.threadExceptionMove_.src.test.extUncaughtExceptionHandler;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 

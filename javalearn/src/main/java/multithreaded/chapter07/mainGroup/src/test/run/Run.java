@@ -1,21 +1,21 @@
-package test.run;
+package multithreaded.chapter07.mainGroup.src.test.run;
 
 public class Run {
 
 	public static void main(String[] args) {
 
-		System.out.println("Ïß³Ì×éÃû³Æ£º"
+		System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½"
 				+ Thread.currentThread().getThreadGroup().getName());
-		System.out.println("Ïß³Ì×éÖÐ»î¶¯µÄÏß³ÌÊýÁ¿£º"
+		System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½Ð»î¶¯ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 				+ Thread.currentThread().getThreadGroup().activeCount());
-		System.out.println("Ïß³Ì×éÖÐÏß³Ì×éµÄÊýÁ¿-¼ÓÖ®Ç°£º"
+		System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½Ö®Ç°ï¿½ï¿½"
 				+ Thread.currentThread().getThreadGroup().activeGroupCount());
 		ThreadGroup newGroup = new ThreadGroup(Thread.currentThread()
 				.getThreadGroup(), "newGroup");
-		System.out.println("Ïß³Ì×éÖÐÏß³Ì×éµÄÊýÁ¿-¼ÓÖ®Ö®ºó£º"
+		System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½Ö®Ö®ï¿½ï¿½"
 				+ Thread.currentThread().getThreadGroup().activeGroupCount());
 		System.out
-				.println("¸¸Ïß³Ì×éÃû³Æ£º"
+				.println("ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½"
 						+ Thread.currentThread().getThreadGroup().getParent()
 								.getName());
 	}

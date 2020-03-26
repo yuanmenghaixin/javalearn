@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.tryLock_param.src.service;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
@@ -11,11 +11,11 @@ public class MyService {
 		try {
 			if (lock.tryLock(3, TimeUnit.SECONDS)) {
 				System.out.println("      " + Thread.currentThread().getName()
-						+ "»ñµÃËøµÄÊ±¼ä£º" + System.currentTimeMillis());
+						+ "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£º" + System.currentTimeMillis());
 				Thread.sleep(10000);
 			} else {
 				System.out.println("      " + Thread.currentThread().getName()
-						+ "Ã»ÓÐ»ñµÃËø");
+						+ "Ã»ï¿½Ð»ï¿½ï¿½ï¿½ï¿½");
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();

@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter04.awaitUntilTest.src.test;
 
-import service.Service;
-import extthread.MyThreadA;
-import extthread.MyThreadB;
+import multithreaded.chapter04.awaitUntilTest.src.service.Service;
+import multithreaded.chapter04.awaitUntilTest.src.extthread.MyThreadA;
+import multithreaded.chapter04.awaitUntilTest.src.extthread.MyThreadB;
 
 public class Run2 {
 

@@ -1,24 +1,24 @@
-package test;
+package multithreaded.chapter06.singleton_5.src.test;
 
 public class MyObject {
 
-	private volatile static MyObject myObject;
+	private volatile static multithreaded.chapter06.singleton_0.src.test.MyObject myObject;
 
 	private MyObject() {
 	}
 
-	// Ê¹ÓÃË«¼ì²â»úÖÆÀ´½â¾öÎÊÌâ
-	// ¼´±£Ö¤ÁË²»ÐèÒªÍ¬²½´úÂëµÄÒì²½
-	// ÓÖ±£Ö¤ÁËµ¥ÀýµÄÐ§¹û
-	public static MyObject getInstance() {
+	// Ê¹ï¿½ï¿½Ë«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	// ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½Ë²ï¿½ï¿½ï¿½ÒªÍ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì²½
+	// ï¿½Ö±ï¿½Ö¤ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½
+	public static multithreaded.chapter06.singleton_0.src.test.MyObject getInstance() {
 		try {
 			if (myObject != null) {
 			} else {
-				// Ä£ÄâÔÚ´´½¨¶ÔÏóÖ®Ç°×öÒ»Ð©×¼±¸ÐÔµÄ¹¤×÷
+				// Ä£ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½ï¿½Ò»Ð©×¼ï¿½ï¿½ï¿½ÔµÄ¹ï¿½ï¿½ï¿½
 				Thread.sleep(3000);
-				synchronized (MyObject.class) {
+				synchronized (multithreaded.chapter06.singleton_0.src.test.MyObject.class) {
 					if (myObject == null) {
-						myObject = new MyObject();
+						myObject = new multithreaded.chapter06.singleton_0.src.test.MyObject();
 					}
 				}
 			}
@@ -27,7 +27,7 @@ public class MyObject {
 		}
 		return myObject;
 	}
-	// ´Ë°æ±¾µÄ´úÂë³ÆÎª£º
-	// Ë«ÖØ¼ì²éDouble-Check Locking
+	// ï¿½Ë°æ±¾ï¿½Ä´ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½
+	// Ë«ï¿½Ø¼ï¿½ï¿½Double-Check Locking
 
 }

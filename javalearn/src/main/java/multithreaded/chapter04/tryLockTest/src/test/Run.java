@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter04.tryLockTest.src.test;
 
-import service.MyService;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.service.MyService;
 
 public class Run {
 

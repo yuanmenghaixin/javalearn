@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter07.groupAddThread.src.test;
 
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
+import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadB;
 
 public class Run {
 
@@ -9,15 +9,15 @@ public class Run {
 		ThreadA aRunnable = new ThreadA();
 		ThreadB bRunnable = new ThreadB();
 
-		ThreadGroup group = new ThreadGroup("¸ßºéÑÒµÄÏß³Ì×é");
+		ThreadGroup group = new ThreadGroup("ï¿½ßºï¿½ï¿½Òµï¿½ï¿½ß³ï¿½ï¿½ï¿½");
 
 		Thread aThread = new Thread(group, aRunnable);
 		Thread bThread = new Thread(group, bRunnable);
 		aThread.start();
 		bThread.start();
 
-		System.out.println("»î¶¯µÄÏß³ÌÊýÎª£º" + group.activeCount());
-		System.out.println("Ïß³Ì×éµÄÃû³ÆÎª£º" + group.getName());
+		System.out.println("ï¿½î¶¯ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½Îªï¿½ï¿½" + group.activeCount());
+		System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + group.getName());
 
 	}
 }

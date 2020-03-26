@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter03.isaliveFALSE.src.test;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Run {
 
@@ -13,7 +13,7 @@ public class Run {
 		for (int i = 0; i < 10000; i++) {
 			array[i].start();
 			if (array[i].isAlive() == false) {
-				System.out.println("³öÏÖÁË£¡ËäÈ»start()ÁË£¬µ«Éú´æ×´Ì¬Îªfalse");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½È»start()ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Îªfalse");
 			}
 		}
 

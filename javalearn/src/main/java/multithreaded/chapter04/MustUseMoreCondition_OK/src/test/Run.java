@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter04.MustUseMoreCondition_OK.src.test;
 
-import service.MyService;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.service.MyService;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.extthread.ThreadA;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.extthread.ThreadB;
 
 public class Run {
 

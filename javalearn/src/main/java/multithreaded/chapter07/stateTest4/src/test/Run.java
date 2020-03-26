@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter07.stateTest4.src.test;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Run {
 

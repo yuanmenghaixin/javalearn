@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter03.joinTest2.src.test;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Test {
 
@@ -10,7 +10,7 @@ public class Test {
 			threadTest.start();
 			threadTest.join();
 
-			System.out.println("ÎÒÏëµ±threadTest¶ÔÏóÖ´ĞĞÍê±ÏºóÎÒÔÙÖ´ĞĞ£¬ÎÒ×öµ½ÁË");
+			System.out.println("ï¿½ï¿½ï¿½ëµ±threadTestï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½Ïºï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ğ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

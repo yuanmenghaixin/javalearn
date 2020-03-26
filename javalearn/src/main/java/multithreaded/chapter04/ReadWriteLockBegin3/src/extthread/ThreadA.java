@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter04.ReadWriteLockBegin3.src.extthread;
 
-import service.Service;
+import multithreaded.chapter04.ReadWriteLockBegin1.src.service.Service;
 
 public class ThreadA extends Thread {
 

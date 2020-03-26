@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.join_sleep_2.src.extthread;
 
 public class ThreadA extends Thread {
 
@@ -14,7 +14,7 @@ public class ThreadA extends Thread {
 		try {
 			synchronized (b) {
 				b.start();
-				b.join();// ËµÃ÷joinÊÍ·ÅËøÁË£¡
+				b.join();// Ëµï¿½ï¿½joinï¿½Í·ï¿½ï¿½ï¿½ï¿½Ë£ï¿½
 				for (int i = 0; i < Integer.MAX_VALUE; i++) {
 					String newString = new String();
 					Math.random();

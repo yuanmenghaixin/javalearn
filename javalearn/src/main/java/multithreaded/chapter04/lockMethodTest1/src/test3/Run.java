@@ -1,4 +1,4 @@
-package test3;
+package multithreaded.chapter04.lockMethodTest1.src.test3;
 
 public class Run {
 

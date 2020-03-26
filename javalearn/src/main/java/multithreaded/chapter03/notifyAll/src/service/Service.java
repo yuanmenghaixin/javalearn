@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter03.notifyAll.src.service;
 
 public class Service {
 

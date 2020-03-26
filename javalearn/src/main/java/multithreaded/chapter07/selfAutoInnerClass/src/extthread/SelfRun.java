@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter07.selfAutoInnerClass.src.extthread;
 
 public class SelfRun {
 	private Thread selfThread;
@@ -19,7 +19,7 @@ public class SelfRun {
 	private void runTask() {
 		while (isContinueRun) {
 			try {
-				System.out.println("ÎÒÔÚÔËĞĞ£¡" + Thread.currentThread().getName());
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ£ï¿½" + Thread.currentThread().getName());
 				Thread.sleep(1000);
 			} catch (InterruptedException x) {
 				x.printStackTrace();

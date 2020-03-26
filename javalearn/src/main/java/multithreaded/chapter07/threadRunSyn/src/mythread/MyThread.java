@@ -1,4 +1,4 @@
-package mythread;
+package multithreaded.chapter07.threadRunSyn.src.mythread;
 
 public class MyThread extends Thread {
 
@@ -6,7 +6,7 @@ public class MyThread extends Thread {
 	private String showChar;
 	private int showNumPosition;
 
-	private int printCount = 0;// Í³¼Æ´òÓ¡ÁË¼¸¸ö×ÖÄ¸
+	private int printCount = 0;// Í³ï¿½Æ´ï¿½Ó¡ï¿½Ë¼ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸
 
 	volatile private static int addNumber = 1;
 

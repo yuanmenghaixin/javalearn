@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.lockInterruptiblyTest2.src.service;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -17,7 +17,7 @@ public class MyService {
 				Math.random();
 			}
 		} catch (InterruptedException e) {
-			System.out.println("Ïß³Ì"+Thread.currentThread().getName()+"½øÈëcatch~!");
+			System.out.println("ï¿½ß³ï¿½"+Thread.currentThread().getName()+"ï¿½ï¿½ï¿½ï¿½catch~!");
 			e.printStackTrace();
 		} finally {
 			if (lock.isHeldByCurrentThread()) {

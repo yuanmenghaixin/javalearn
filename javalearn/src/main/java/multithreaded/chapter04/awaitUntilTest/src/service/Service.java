@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.awaitUntilTest.src.service;
 
 import java.util.Calendar;
 import java.util.concurrent.locks.Condition;

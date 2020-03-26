@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter07.stateTest1.src.extthread;
 
 public class MyThread extends Thread {
 

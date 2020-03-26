@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.stack_2_new_final.src.extthread;
 
-import service.C;
+import multithreaded.chapter03.stack_1.src.service.C;
 
 public class C_Thread extends Thread {
 

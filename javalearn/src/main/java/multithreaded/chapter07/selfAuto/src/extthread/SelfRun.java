@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter07.selfAuto.src.extthread;
 
 public class SelfRun extends Object implements Runnable {
 	private Thread selfThread;
@@ -12,7 +12,7 @@ public class SelfRun extends Object implements Runnable {
 	public void run() {
 		while (isContinueRun) {
 			try {
-				System.out.println("ÎÒÔÚÔËÐÐ£¡" + Thread.currentThread().getName());
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½" + Thread.currentThread().getName());
 				Thread.sleep(1000);
 			} catch (InterruptedException x) {
 				x.printStackTrace();

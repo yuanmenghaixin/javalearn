@@ -1,6 +1,6 @@
-package entity;
+package multithreaded.chapter03.p_r_test.src.entity;
 
-//Ïû·ÑÕß
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 public class C {
 
 	private String lock;
@@ -16,7 +16,7 @@ public class C {
 				if (ValueObject.value.equals("")) {
 					lock.wait();
 				}
-				System.out.println("getµÄÖµÊÇ" + ValueObject.value);
+				System.out.println("getï¿½ï¿½Öµï¿½ï¿½" + ValueObject.value);
 				ValueObject.value = "";
 				lock.notify();
 			}

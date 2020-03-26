@@ -37,16 +37,14 @@ public class ReentrantLockDemo {
     public static void main(String[] ags)throws InterruptedException{
         final ReentrantLockDemo lockDemo= new ReentrantLockDemo();
         int i=0;
-        List<Thread> list =new ArrayList<>(30);
+        List<Thread> list =new ArrayList<Thread>(30);
         do{
             Thread a = new Thread(new Runnable() {
-                @Override
                 public void run() {
                     lockDemo.work();
                 }
             },"小A_"+i);
             Thread b = new Thread(new Runnable() {
-                @Override
                 public void run() {
                     lockDemo.work();
                 }

@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter03.waitReleaseLock.src.service;
 
 public class Service {
 

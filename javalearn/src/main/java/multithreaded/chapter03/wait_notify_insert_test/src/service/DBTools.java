@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter03.wait_notify_insert_test.src.service;
 
 public class DBTools {
 
@@ -10,7 +10,7 @@ public class DBTools {
 				wait();
 			}
 			for (int i = 0; i < 5; i++) {
-				System.out.println("¡ï¡ï¡ï¡ï¡ï");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 			}
 			prevIsA = true;
 			notifyAll();
@@ -25,7 +25,7 @@ public class DBTools {
 				wait();
 			}
 			for (int i = 0; i < 5; i++) {
-				System.out.println("¡î¡î¡î¡î¡î");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 			}
 			prevIsA = false;
 			notifyAll();

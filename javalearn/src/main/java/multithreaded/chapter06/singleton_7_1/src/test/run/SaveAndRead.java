@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import test.MyObject;
+import multithreaded.chapter06.singleton_0.src.test.MyObject;
 
 public class SaveAndRead {
 

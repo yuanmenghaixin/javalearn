@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.twoNoStop.src.service;
 
 public class Service {
 	Object object1 = new Object();

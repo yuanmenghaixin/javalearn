@@ -1,10 +1,10 @@
-package test;
+package multithreaded.chapter04.ConditionTestMoreMethod.src.test;
 
-import service.MyService;
-import extthread.ThreadA;
-import extthread.ThreadAA;
-import extthread.ThreadB;
-import extthread.ThreadBB;
+import multithreaded.chapter04.ConditionTestMoreMethod.src.service.MyService;
+import multithreaded.chapter04.ConditionTestMoreMethod.src.extthread.ThreadA;
+import multithreaded.chapter04.ConditionTestMoreMethod.src.extthread.ThreadAA;
+import multithreaded.chapter04.ConditionTestMoreMethod.src.extthread.ThreadB;
+import multithreaded.chapter04.ConditionTestMoreMethod.src.extthread.ThreadBB;
 
 public class Run {
 

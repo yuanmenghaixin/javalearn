@@ -1,4 +1,4 @@
-package ext;
+package multithreaded.chapter03.InheritableThreadLocal2.src.ext;
 
 import java.util.Date;
 
@@ -10,6 +10,6 @@ public class InheritableThreadLocalExt extends InheritableThreadLocal {
 
 	@Override
 	protected Object childValue(Object parentValue) {
-		return parentValue + " 我在子线程加的~!";
+		return parentValue + " 锟斤拷锟斤拷锟斤拷锟竭程加碉拷~!";
 	}
 }

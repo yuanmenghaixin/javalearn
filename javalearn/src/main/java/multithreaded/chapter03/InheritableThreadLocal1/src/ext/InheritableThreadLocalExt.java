@@ -1,4 +1,4 @@
-package ext;
+package multithreaded.chapter03.InheritableThreadLocal1.src.ext;
 
 import java.util.Date;
 

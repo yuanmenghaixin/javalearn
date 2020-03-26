@@ -1,6 +1,6 @@
-package entity;
+package multithreaded.chapter03.p_r_test.src.entity;
 
-//Éú²úÕß
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 public class P {
 
 	private String lock;
@@ -18,7 +18,7 @@ public class P {
 				}
 				String value = System.currentTimeMillis() + "_"
 						+ System.nanoTime();
-				System.out.println("setµÄÖµÊÇ" + value);
+				System.out.println("setï¿½ï¿½Öµï¿½ï¿½" + value);
 				ValueObject.value = value;
 				lock.notify();
 			}

@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.tryLockTest.src.service;
 
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -8,9 +8,9 @@ public class MyService {
 
 	public void waitMethod() {
 		if (lock.tryLock()) {
-			System.out.println(Thread.currentThread().getName() + "»ñµÃËø");
+			System.out.println(Thread.currentThread().getName() + "ï¿½ï¿½ï¿½ï¿½ï¿½");
 		} else {
-			System.out.println(Thread.currentThread().getName() + "Ã»ÓÐ»ñµÃËø");
+			System.out.println(Thread.currentThread().getName() + "Ã»ï¿½Ð»ï¿½ï¿½ï¿½ï¿½");
 		}
 	}
 }

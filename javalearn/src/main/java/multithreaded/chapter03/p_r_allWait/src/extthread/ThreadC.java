@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.p_r_allWait.src.extthread;
 
-import entity.C;
+import multithreaded.chapter03.p_r_allWait.src.entity.C;
 
 public class ThreadC extends Thread {
 

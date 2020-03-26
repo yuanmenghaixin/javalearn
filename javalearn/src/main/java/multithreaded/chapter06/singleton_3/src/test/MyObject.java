@@ -1,23 +1,23 @@
-package test;
+package multithreaded.chapter06.singleton_3.src.test;
 
 public class MyObject {
 
-	private static MyObject myObject;
+	private static multithreaded.chapter06.singleton_0.src.test.MyObject myObject;
 
 	private MyObject() {
 	}
 
-	public static MyObject getInstance() {
+	public static multithreaded.chapter06.singleton_0.src.test.MyObject getInstance() {
 		try {
 			if (myObject != null) {
 			} else {
-				// 模拟在创建对象之前做一些准备性的工作
+				// 模锟斤拷锟节达拷锟斤拷锟斤拷锟斤拷之前锟斤拷一些准锟斤拷锟皆的癸拷锟斤拷
 				Thread.sleep(3000);
-				// 使用synchronized (MyObject.class)
-				// 虽然部分代码被上锁
-				// 但还是有非线程安全问题
-				synchronized (MyObject.class) {
-					myObject = new MyObject();
+				// 使锟斤拷synchronized (MyObject.class)
+				// 锟斤拷然锟斤拷锟街达拷锟诫被锟斤拷锟斤拷
+				// 锟斤拷锟斤拷锟斤拷锟叫凤拷锟竭程帮拷全锟斤拷锟斤拷
+				synchronized (multithreaded.chapter06.singleton_0.src.test.MyObject.class) {
+					myObject = new multithreaded.chapter06.singleton_0.src.test.MyObject();
 				}
 			}
 		} catch (InterruptedException e) {

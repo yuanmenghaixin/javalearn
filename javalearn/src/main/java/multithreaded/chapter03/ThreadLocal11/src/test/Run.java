@@ -1,12 +1,12 @@
-package test;
+package multithreaded.chapter03.ThreadLocal11.src.test;
 
 public class Run {
 	public static ThreadLocal tl = new ThreadLocal();
 
 	public static void main(String[] args) {
 		if (tl.get() == null) {
-			System.out.println("从未放过值");
-			tl.set("我的值");
+			System.out.println("锟斤拷未锟脚癸拷值");
+			tl.set("锟揭碉拷值");
 		}
 		System.out.println(tl.get());
 		System.out.println(tl.get());

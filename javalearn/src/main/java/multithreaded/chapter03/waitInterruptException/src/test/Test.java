@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter03.waitInterruptException.src.test;
 
-import extthread.ThreadA;
+import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
 
 public class Test {
 

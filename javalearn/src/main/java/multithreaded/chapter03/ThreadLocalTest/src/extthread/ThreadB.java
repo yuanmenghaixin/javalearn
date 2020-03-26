@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.ThreadLocalTest.src.extthread;
 
-import tools.Tools;
+import multithreaded.chapter03.InheritableThreadLocal1.src.tools.Tools;
 
 public class ThreadB extends Thread {
 

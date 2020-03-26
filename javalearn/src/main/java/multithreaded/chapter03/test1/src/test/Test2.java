@@ -1,17 +1,17 @@
-package test;
+package multithreaded.chapter03.test1.src.test;
 
 public class Test2 {
 
 	public static void main(String[] args) {
 		try {
 			String lock = new String();
-			System.out.println("synÉÏÃæ");
+			System.out.println("synï¿½ï¿½ï¿½ï¿½");
 			synchronized (lock) {
-				System.out.println("synµÚÒ»ĞĞ");
+				System.out.println("synï¿½ï¿½Ò»ï¿½ï¿½");
 				lock.wait();
-				System.out.println("waitÏÂµÄ´úÂë£¡");
+				System.out.println("waitï¿½ÂµÄ´ï¿½ï¿½ë£¡");
 			}
-			System.out.println("synÏÂÃæµÄ´úÂë");
+			System.out.println("synï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½");
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

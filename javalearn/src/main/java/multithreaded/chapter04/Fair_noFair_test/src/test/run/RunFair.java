@@ -1,6 +1,6 @@
-package test.run;
+package multithreaded.chapter04.Fair_noFair_test.src.test.run;
 
-import service.Service;
+import multithreaded.chapter04.Fair_noFair_test.src.service.Service;
 
 public class RunFair {
 

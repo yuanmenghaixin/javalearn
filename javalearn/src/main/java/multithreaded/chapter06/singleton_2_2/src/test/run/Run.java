@@ -1,7 +1,6 @@
-package test.run;
+package multithreaded.chapter06.singleton_2_2.src.test.run;
 
-import test.MyObject;
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Run {
 
@@ -14,9 +13,9 @@ public class Run {
 		t2.start();
 		t3.start();
 
-		// 此版本代码虽然是正确的
-		// 但public static MyObject getInstance()方法
-		// 中的全部代码都是同步的了，这样做有损效率
+		// 锟剿版本锟斤拷锟斤拷锟斤拷然锟斤拷锟斤拷确锟斤拷
+		// 锟斤拷public static MyObject getInstance()锟斤拷锟斤拷
+		// 锟叫碉拷全锟斤拷锟斤拷锟诫都锟斤拷同锟斤拷锟斤拷锟剿ｏ拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷效锟斤拷
 	}
 
 }

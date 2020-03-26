@@ -1,16 +1,16 @@
-package test;
+package multithreaded.chapter06.singleton_7.src.test;
 
 public class MyObject {
 
-	// 内部类方式
+	// 锟节诧拷锟洁方式
 	private static class MyObjectHandler {
-		private static MyObject myObject = new MyObject();
+		private static multithreaded.chapter06.singleton_0.src.test.MyObject myObject = new multithreaded.chapter06.singleton_0.src.test.MyObject();
 	}
 
 	private MyObject() {
 	}
 
-	public static MyObject getInstance() {
+	public static multithreaded.chapter06.singleton_0.src.test.MyObject getInstance() {
 		return MyObjectHandler.myObject;
 	}
 

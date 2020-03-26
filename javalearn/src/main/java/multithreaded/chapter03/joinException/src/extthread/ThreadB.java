@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.joinException.src.extthread;
 
 public class ThreadB extends Thread {
 
@@ -9,9 +9,9 @@ public class ThreadB extends Thread {
 			a.start();
 			a.join();
 
-			System.out.println("Ïß³ÌBÔÚrun end´¦´òÓ¡ÁË");
+			System.out.println("ï¿½ß³ï¿½Bï¿½ï¿½run endï¿½ï¿½ï¿½ï¿½Ó¡ï¿½ï¿½");
 		} catch (InterruptedException e) {
-			System.out.println("Ïß³ÌBÔÚcatch´¦´òÓ¡ÁË");
+			System.out.println("ï¿½ß³ï¿½Bï¿½ï¿½catchï¿½ï¿½ï¿½ï¿½Ó¡ï¿½ï¿½");
 			e.printStackTrace();
 		}
 	}

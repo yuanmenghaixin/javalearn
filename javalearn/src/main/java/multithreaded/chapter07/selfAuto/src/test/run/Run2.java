@@ -1,6 +1,6 @@
-package test.run;
+package multithreaded.chapter07.selfAuto.src.test.run;
 
-import extthread.SelfRun;
+import multithreaded.chapter07.selfAuto.src.extthread.SelfRun;
 
 public class Run2 {
 

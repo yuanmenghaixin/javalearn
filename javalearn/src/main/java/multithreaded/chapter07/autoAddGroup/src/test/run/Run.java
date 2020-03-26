@@ -1,14 +1,14 @@
-package test.run;
+package multithreaded.chapter07.autoAddGroup.src.test.run;
 
 public class Run {
 	public static void main(String[] args) {
-		System.out.println("A´¦Ïß³Ì£º"+Thread.currentThread().getName()+" ÖÐÓÐÏß³Ì×éÊýÁ¿£º"+Thread.currentThread().getThreadGroup().activeGroupCount());
-		ThreadGroup group=new ThreadGroup("ÐÂµÄ×é");
-		System.out.println("A´¦Ïß³Ì£º"+Thread.currentThread().getName()+" ÖÐÓÐÏß³Ì×éÊýÁ¿£º"+Thread.currentThread().getThreadGroup().activeGroupCount());
+		System.out.println("Aï¿½ï¿½ï¿½ß³Ì£ï¿½"+Thread.currentThread().getName()+" ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+Thread.currentThread().getThreadGroup().activeGroupCount());
+		ThreadGroup group=new ThreadGroup("ï¿½Âµï¿½ï¿½ï¿½");
+		System.out.println("Aï¿½ï¿½ï¿½ß³Ì£ï¿½"+Thread.currentThread().getName()+" ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+Thread.currentThread().getThreadGroup().activeGroupCount());
 		ThreadGroup[] threadGroup=new ThreadGroup[Thread.currentThread().getThreadGroup().activeGroupCount()];
 		Thread.currentThread().getThreadGroup().enumerate(threadGroup);
 		for (int i = 0; i < threadGroup.length; i++) {
-			System.out.println("µÚÒ»¸öÏß³Ì×éÃû³ÆÎª£º"+threadGroup[i].getName());
+			System.out.println("ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½"+threadGroup[i].getName());
 		}
 	}
 }

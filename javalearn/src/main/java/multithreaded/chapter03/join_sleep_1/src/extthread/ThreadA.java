@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.join_sleep_1.src.extthread;
 
 public class ThreadA extends Thread {
 
@@ -15,7 +15,7 @@ public class ThreadA extends Thread {
 			synchronized (b) {
 				b.start();
 				Thread.sleep(6000);
-				// Thread.sleep()²»ÊÍ·ÅËø£¡
+				// Thread.sleep()ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();

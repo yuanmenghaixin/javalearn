@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter07.groupAddThread.src.extthread;
 
 public class ThreadB extends Thread {
 

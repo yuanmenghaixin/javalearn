@@ -1,8 +1,8 @@
-package test.run;
+package multithreaded.chapter03.wait_notify_insert_test.src.test.run;
 
-import service.DBTools;
-import extthread.BackupA;
-import extthread.BackupB;
+import multithreaded.chapter03.wait_notify_insert_test.src.extthread.BackupA;
+import multithreaded.chapter03.wait_notify_insert_test.src.extthread.BackupB;
+import multithreaded.chapter03.wait_notify_insert_test.src.service.DBTools;
 
 public class Run {
 

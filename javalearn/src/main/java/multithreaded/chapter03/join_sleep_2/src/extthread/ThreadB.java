@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.join_sleep_2.src.extthread;
 
 public class ThreadB extends Thread {
 
@@ -16,7 +16,7 @@ public class ThreadB extends Thread {
 	}
 
 	synchronized public void bService() {
-		System.out.println("´òÓ¡ÁËbService timer=" + System.currentTimeMillis());
+		System.out.println("ï¿½ï¿½Ó¡ï¿½ï¿½bService timer=" + System.currentTimeMillis());
 	}
 
 }

@@ -1,22 +1,22 @@
-package test.run;
+package multithreaded.chapter07.groupInnerStop.src.test.run;
 
-import mythread.MyThread;
+import multithreaded.chapter07.groupInnerStop.src.mythread.MyThread;
 
 public class Run {
 
 	public static void main(String[] args) {
 		try {
-			ThreadGroup group = new ThreadGroup("ÎÒµÄÏß³Ì×é");
+			ThreadGroup group = new ThreadGroup("ï¿½Òµï¿½ï¿½ß³ï¿½ï¿½ï¿½");
 
 			for (int i = 0; i < 5; i++) {
-				MyThread thread = new MyThread(group, "Ïß³Ì" + (i + 1));
+				MyThread thread = new MyThread(group, "ï¿½ß³ï¿½" + (i + 1));
 				thread.start();
 			}
 			Thread.sleep(5000);
 			group.interrupt();
-			System.out.println("µ÷ÓÃÁËinterrupt()·½·¨");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½interrupt()ï¿½ï¿½ï¿½ï¿½");
 		} catch (InterruptedException e) {
-			System.out.println("Í£ÁËÍ£ÁË£¡");
+			System.out.println("Í£ï¿½ï¿½Í£ï¿½Ë£ï¿½");
 			e.printStackTrace();
 		}
 

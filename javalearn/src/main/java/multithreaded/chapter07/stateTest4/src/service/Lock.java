@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter07.stateTest4.src.service;
 
 public class Lock {
 

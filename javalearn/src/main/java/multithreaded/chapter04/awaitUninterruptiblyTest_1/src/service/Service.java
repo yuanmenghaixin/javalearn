@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.awaitUninterruptiblyTest_1.src.service;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

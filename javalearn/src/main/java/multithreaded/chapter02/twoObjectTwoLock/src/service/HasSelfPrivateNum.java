@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.twoObjectTwoLock.src.service;
 
 public class HasSelfPrivateNum {
 

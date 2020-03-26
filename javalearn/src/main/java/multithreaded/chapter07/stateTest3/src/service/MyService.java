@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter07.stateTest3.src.service;
 
 public class MyService {
 

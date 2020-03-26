@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.ReadWriteLockBegin1.src.service;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 

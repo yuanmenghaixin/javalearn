@@ -1,21 +1,21 @@
-package test;
+package multithreaded.chapter06.singleton_2_1.src.test;
 
 public class MyObject {
 
-	private static MyObject myObject;
+	private static multithreaded.chapter06.singleton_0.src.test.MyObject myObject;
 
 	private MyObject() {
 	}
 
-	// 设置同步方法效率太低了
-	// 整个方法被上锁
-	synchronized public static MyObject getInstance() {
+	// 锟斤拷锟斤拷同锟斤拷锟斤拷锟斤拷效锟斤拷太锟斤拷锟斤拷
+	// 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
+	synchronized public static multithreaded.chapter06.singleton_0.src.test.MyObject getInstance() {
 		try {
 			if (myObject != null) {
 			} else {
-				// 模拟在创建对象之前做一些准备性的工作
+				// 模锟斤拷锟节达拷锟斤拷锟斤拷锟斤拷之前锟斤拷一些准锟斤拷锟皆的癸拷锟斤拷
 				Thread.sleep(3000);
-				myObject = new MyObject();
+				myObject = new multithreaded.chapter06.singleton_0.src.test.MyObject();
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();

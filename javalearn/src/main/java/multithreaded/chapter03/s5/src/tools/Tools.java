@@ -1,4 +1,4 @@
-package tools;
+package multithreaded.chapter03.s5.src.tools;
 
 import java.util.Date;
 

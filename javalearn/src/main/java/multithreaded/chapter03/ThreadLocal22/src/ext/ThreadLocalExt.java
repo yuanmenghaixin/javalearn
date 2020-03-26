@@ -1,8 +1,8 @@
-package ext;
+package multithreaded.chapter03.ThreadLocal22.src.ext;
 
 public class ThreadLocalExt extends ThreadLocal {
 	@Override
 	protected Object initialValue() {
-		return "我是默认值 第一次get不再为null";
+		return "锟斤拷锟斤拷默锟斤拷值 锟斤拷一锟斤拷get锟斤拷锟斤拷为null";
 	}
 }

@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter05.timerTest2.src.test;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

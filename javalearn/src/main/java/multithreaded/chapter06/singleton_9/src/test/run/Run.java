@@ -1,7 +1,6 @@
-package test.run;
+package multithreaded.chapter06.singleton_9.src.test.run;
 
-import test.MyObject;
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Run {
 

@@ -1,6 +1,6 @@
 package test.run;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Run {
 	public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package extthread;
+package multithreaded.chapter03.s5.src.extthread;
 
 import java.util.Date;
-import tools.Tools;
+import multithreaded.chapter03.InheritableThreadLocal1.src.tools.Tools;
 
 public class ThreadA extends Thread {
 

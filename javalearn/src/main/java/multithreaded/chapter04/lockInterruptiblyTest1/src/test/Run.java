@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter04.lockInterruptiblyTest1.src.test;
 
-import service.MyService;
+import multithreaded.chapter04.lockInterruptiblyTest1.src.service.MyService;
 
 public class Run {
 
@@ -20,7 +20,7 @@ public class Run {
 		Thread threadB = new Thread(runnableRef);
 		threadB.setName("B");
 		threadB.start();
-		threadB.interrupt();// ´ò±ê¼Ç
+		threadB.interrupt();// ï¿½ï¿½ï¿½ï¿½
 		System.out.println("main end!");
 	}
 }

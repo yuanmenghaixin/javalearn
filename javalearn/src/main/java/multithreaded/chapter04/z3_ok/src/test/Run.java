@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter04.z3_ok.src.test;
 
-import service.MyService;
-import extthread.MyThreadA;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.service.MyService;
+import multithreaded.chapter04.z3_ok.src.extthread.MyThreadA;
 
 public class Run {
 

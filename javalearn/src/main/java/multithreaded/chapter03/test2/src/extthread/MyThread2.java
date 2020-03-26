@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.test2.src.extthread;
 
 public class MyThread2 extends Thread {
 	private Object lock;
@@ -11,9 +11,9 @@ public class MyThread2 extends Thread {
 	@Override
 	public void run() {
 		synchronized (lock) {
-			System.out.println("¿ªÊ¼notify time=" + System.currentTimeMillis());
+			System.out.println("ï¿½ï¿½Ê¼notify time=" + System.currentTimeMillis());
 			lock.notify();
-			System.out.println("½áÊønotify time=" + System.currentTimeMillis());
+			System.out.println("ï¿½ï¿½ï¿½ï¿½notify time=" + System.currentTimeMillis());
 		}
 	}
 }

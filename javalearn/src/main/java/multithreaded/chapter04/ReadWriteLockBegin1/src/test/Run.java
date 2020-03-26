@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter04.ReadWriteLockBegin1.src.test;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter04.ReadWriteLockBegin1.src.service.Service;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.extthread.ThreadA;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.extthread.ThreadB;
 
 public class Run {
 

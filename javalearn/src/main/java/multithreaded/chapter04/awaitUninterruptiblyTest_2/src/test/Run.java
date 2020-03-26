@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter04.awaitUninterruptiblyTest_2.src.test;
 
-import service.Service;
-import extthread.MyThread;
+import multithreaded.chapter04.awaitUninterruptiblyTest_2.src.service.Service;
+import multithreaded.chapter04.awaitUninterruptiblyTest_2.src.extthread.MyThread;
 
 public class Run {
 

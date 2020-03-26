@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter03.pipeInputOutput.src.service;
 
 import java.io.IOException;
 import java.io.PipedOutputStream;

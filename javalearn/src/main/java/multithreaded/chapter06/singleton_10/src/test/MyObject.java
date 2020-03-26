@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter06.singleton_10.src.test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

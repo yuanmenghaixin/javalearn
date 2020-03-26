@@ -1,7 +1,7 @@
-package test.run;
+package multithreaded.chapter07.threadGroup_2.src.test.run;
 
-import extthread.MyThread;
-import extthreadgroup.MyThreadGroup;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
+import multithreaded.chapter07.threadExceptionMove_.src.extthreadgroup.MyThreadGroup;
 
 public class Run {
 

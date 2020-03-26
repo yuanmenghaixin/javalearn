@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter03.joinLong.src.test;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Test {
 
@@ -9,7 +9,7 @@ public class Test {
 			MyThread threadTest = new MyThread();
 			threadTest.start();
 
-			// threadTest.join(2000);// Ö»µÈ2Ãë
+			// threadTest.join(2000);// Ö»ï¿½ï¿½2ï¿½ï¿½
 			Thread.sleep(2000);
 
 			System.out.println("  end timer=" + System.currentTimeMillis());

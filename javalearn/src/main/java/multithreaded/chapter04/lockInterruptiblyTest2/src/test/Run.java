@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter04.lockInterruptiblyTest2.src.test;
 
-import service.MyService;
+import multithreaded.chapter04.lockInterruptiblyTest2.src.service.MyService;
 
 public class Run {
 

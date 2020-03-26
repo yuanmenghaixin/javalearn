@@ -7,20 +7,20 @@ public class MyObject implements Serializable {
 
 	private static final long serialVersionUID = 888L;
 
-	// ÄÚ²¿Àà·½Ê½
+	// ï¿½Ú²ï¿½ï¿½à·½Ê½
 	private static class MyObjectHandler {
-		private static final MyObject myObject = new MyObject();
+		private static final multithreaded.chapter06.singleton_0.src.test.MyObject myObject = new multithreaded.chapter06.singleton_0.src.test.MyObject();
 	}
 
 	private MyObject() {
 	}
 
-	public static MyObject getInstance() {
+	public static multithreaded.chapter06.singleton_0.src.test.MyObject getInstance() {
 		return MyObjectHandler.myObject;
 	}
 
 	protected Object readResolve() throws ObjectStreamException {
-		System.out.println("µ÷ÓÃÁËreadResolve·½·¨£¡");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½readResolveï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		return MyObjectHandler.myObject;
 	}
 

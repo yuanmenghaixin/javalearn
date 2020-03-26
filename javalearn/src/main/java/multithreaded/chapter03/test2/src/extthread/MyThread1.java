@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.test2.src.extthread;
 
 public class MyThread1 extends Thread {
 	private Object lock;
@@ -12,9 +12,9 @@ public class MyThread1 extends Thread {
 	public void run() {
 		try {
 			synchronized (lock) {
-				System.out.println("¿ªÊ¼      wait time=" + System.currentTimeMillis());
+				System.out.println("ï¿½ï¿½Ê¼      wait time=" + System.currentTimeMillis());
 				lock.wait();
-				System.out.println("½áÊø      wait time=" + System.currentTimeMillis());
+				System.out.println("ï¿½ï¿½ï¿½ï¿½      wait time=" + System.currentTimeMillis());
 			}
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block

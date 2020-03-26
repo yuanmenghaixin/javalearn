@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter04.ReentrantLockTest.src.test;
 
-import service.MyService;
-import extthread.MyThread;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.service.MyService;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Run {
 

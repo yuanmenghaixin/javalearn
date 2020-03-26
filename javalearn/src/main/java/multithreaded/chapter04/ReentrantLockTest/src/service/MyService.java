@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.ReentrantLockTest.src.service;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

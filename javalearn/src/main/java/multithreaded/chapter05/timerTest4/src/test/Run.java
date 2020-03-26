@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter05.timerTest4.src.test;
 
 import java.util.Date;
 import java.util.Timer;

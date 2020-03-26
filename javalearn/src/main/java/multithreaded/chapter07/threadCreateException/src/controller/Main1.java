@@ -1,6 +1,6 @@
-package controller;
+package multithreaded.chapter07.threadCreateException.src.controller;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Main1 {
 

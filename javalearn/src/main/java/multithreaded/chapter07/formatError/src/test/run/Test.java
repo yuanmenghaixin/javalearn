@@ -1,8 +1,8 @@
-package test.run;
+package multithreaded.chapter07.formatError.src.test.run;
 
 import java.text.SimpleDateFormat;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Test {
 

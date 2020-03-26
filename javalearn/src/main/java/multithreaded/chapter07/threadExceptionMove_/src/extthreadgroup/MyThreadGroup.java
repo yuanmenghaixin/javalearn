@@ -1,4 +1,4 @@
-package extthreadgroup;
+package multithreaded.chapter07.threadExceptionMove_.src.extthreadgroup;
 
 public class MyThreadGroup extends ThreadGroup {
 

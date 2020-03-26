@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter04.UseConditionWaitNotifyOK.src.service;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -12,7 +12,7 @@ public class MyService {
 	public void await() {
 		try {
 			lock.lock();
-			System.out.println(" await时间为" + System.currentTimeMillis());
+			System.out.println(" await时锟斤拷为" + System.currentTimeMillis());
 			condition.await();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -24,7 +24,7 @@ public class MyService {
 	public void signal() {
 		try {
 			lock.lock();
-			System.out.println("signal时间为" + System.currentTimeMillis());
+			System.out.println("signal时锟斤拷为" + System.currentTimeMillis());
 			condition.signal();
 		} finally {
 			lock.unlock();

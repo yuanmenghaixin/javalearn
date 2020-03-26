@@ -12,11 +12,10 @@ public class TestCallable {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
 
-        List<Callable<List<String>>> tasks = new ArrayList<>();
+        List<Callable<List<String>>> tasks = new ArrayList<Callable<List<String>>>();
         for (int i = 0; i < 10; i++) {
             final int finalI = i;
             Callable<List<String>> task = new Callable<List<String>>() {
-                @Override
                 public List<String> call() throws Exception {
                     return Arrays.asList(UUID.randomUUID().toString());
                 }
@@ -24,11 +23,11 @@ public class TestCallable {
             tasks.add(task);
         }
 
-        List<String> finalResults = new ArrayList<>(10);
+        List<String> finalResults = new ArrayList<String>(10);
         List<Future<List<String>>> results = ThreadPool.getThreadPool().invokeAll(tasks);
-        List<String> finalResults2 = new ArrayList<>(10);
+        List<String> finalResults2 = new ArrayList<String>(10);
         List<Future<List<String>>> results2 = ThreadPool.getThreadPool().invokeAll(tasks);
-        List<String> finalResults3 = new ArrayList<>(10);
+        List<String> finalResults3 = new ArrayList<String>(10);
         List<Future<List<String>>> results3 = ThreadPool.getThreadPool().invokeAll(tasks);
         for(Future<List<String>> ele : results) {
             List<String> list = ele.get();

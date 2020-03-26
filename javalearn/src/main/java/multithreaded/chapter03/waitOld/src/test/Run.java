@@ -1,9 +1,9 @@
-package test;
+package multithreaded.chapter03.waitOld.src.test;
 
-import entity.Add;
-import entity.Subtract;
-import extthread.ThreadAdd;
-import extthread.ThreadSubtract;
+import multithreaded.chapter03.waitOld.src.entity.Add;
+import multithreaded.chapter03.waitOld.src.entity.Subtract;
+import multithreaded.chapter03.waitOld.src.extthread.ThreadAdd;
+import multithreaded.chapter03.waitOld.src.extthread.ThreadSubtract;
 
 public class Run {
 

@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.joinException.src.extthread;
 
 public class ThreadC extends Thread {
 

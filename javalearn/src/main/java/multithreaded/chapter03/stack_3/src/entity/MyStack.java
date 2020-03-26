@@ -1,4 +1,4 @@
-package entity;
+package multithreaded.chapter03.stack_3.src.entity;
 
 import java.util.ArrayList;
 import java.util.List;

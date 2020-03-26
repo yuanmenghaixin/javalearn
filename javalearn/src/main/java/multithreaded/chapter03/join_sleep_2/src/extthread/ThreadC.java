@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter03.join_sleep_2.src.extthread;
 
 public class ThreadC extends Thread {
 

@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.wait_notify_size5.src.extthread;
 
-import extlist.MyList;
+import multithreaded.chapter03.wait_notify_size5.src.extlist.MyList;
 
 public class ThreadB extends Thread {
 	private Object lock;
@@ -18,9 +18,9 @@ public class ThreadB extends Thread {
 					MyList.add();
 					if (MyList.size() == 5) {
 						lock.notify();
-						System.out.println("ÒÑ·¢³öÍ¨Öª£¡");
+						System.out.println("ï¿½Ñ·ï¿½ï¿½ï¿½Í¨Öªï¿½ï¿½");
 					}
-					System.out.println("Ìí¼ÓÁË" + (i + 1) + "¸öÔªËØ!");
+					System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½" + (i + 1) + "ï¿½ï¿½Ôªï¿½ï¿½!");
 					Thread.sleep(1000);
 				}
 			}

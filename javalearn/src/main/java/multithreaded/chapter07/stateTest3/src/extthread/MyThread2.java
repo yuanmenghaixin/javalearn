@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter07.stateTest3.src.extthread;
 
-import service.MyService;
+import multithreaded.chapter04.MustUseMoreCondition_Error.src.service.MyService;
 
 public class MyThread2 extends Thread {
 

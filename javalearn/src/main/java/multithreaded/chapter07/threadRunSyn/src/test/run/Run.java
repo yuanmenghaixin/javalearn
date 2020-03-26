@@ -1,6 +1,6 @@
-package test.run;
+package multithreaded.chapter07.threadRunSyn.src.test.run;
 
-import mythread.MyThread;
+import multithreaded.chapter07.groupInnerStop.src.mythread.MyThread;
 
 public class Run {
 

@@ -1,16 +1,16 @@
-package test.run;
+package multithreaded.chapter07.getGroupParent.src.test.run;
 
 public class Run {
 
 	public static void main(String[] args) {
-		System.out.println("Ïß³Ì£º" + Thread.currentThread().getName()
-				+ " ËùÔÚµÄÏß³Ì×éÃûÎª£º"
+		System.out.println("ï¿½ß³Ì£ï¿½" + Thread.currentThread().getName()
+				+ " ï¿½ï¿½ï¿½Úµï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½"
 				+ Thread.currentThread().getThreadGroup().getName());
 		System.out
-				.println("mainÏß³ÌËùÔÚµÄÏß³Ì×éµÄ¸¸Ïß³Ì×éµÄÃû³ÆÊÇ£º"
+				.println("mainï¿½ß³ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ß³ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"
 						+ Thread.currentThread().getThreadGroup().getParent()
 								.getName());
-		System.out.println("mainÏß³ÌËùÔÚµÄÏß³Ì×éµÄ¸¸Ïß³Ì×éµÄ¸¸Ïß³Ì×éµÄÃû³ÆÊÇ£º"
+		System.out.println("mainï¿½ß³ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ß³ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ß³ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"
 				+ Thread.currentThread().getThreadGroup().getParent()
 						.getParent().getName());
 	}

@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter03.firstNotify.src.test;
 
 public class MyRun {
 

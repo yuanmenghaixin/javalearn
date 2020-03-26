@@ -1,4 +1,4 @@
-package test.run;
+package multithreaded.chapter07.groupRecurseTest.src.test.run;
 
 public class Run {
 
@@ -19,10 +19,10 @@ public class Run {
 		};
 		ThreadGroup groupB = new ThreadGroup(groupA, "B");
 
-		// ·ÖÅä¿Õ¼ä£¬µ«²»Ò»¶¨È«²¿ÓÃÍê
+		// ï¿½ï¿½ï¿½ï¿½Õ¼ä£¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		ThreadGroup[] listGroup1 = new ThreadGroup[Thread.currentThread()
 				.getThreadGroup().activeGroupCount()];
-		// ·ÇµÝ¹éÈ¡µÃ×Ó¶ÔÏó£¬Ò²¾ÍÊÇ²»È¡µÃZÏß³Ì
+		// ï¿½ÇµÝ¹ï¿½È¡ï¿½ï¿½ï¿½Ó¶ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½Ç²ï¿½È¡ï¿½ï¿½Zï¿½ß³ï¿½
 		Thread.currentThread().getThreadGroup().enumerate(listGroup1, true);
 		for (int i = 0; i < listGroup1.length; i++) {
 			if (listGroup1[i] != null) {

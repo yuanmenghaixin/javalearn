@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.TwoThreadTransData.src.extthread;
 
-import mylist.MyList;
+import multithreaded.chapter03.TwoThreadTransData.src.mylist.MyList;
 
 public class ThreadA extends Thread {
 
@@ -16,7 +16,7 @@ public class ThreadA extends Thread {
 		try {
 			for (int i = 0; i < 10; i++) {
 				list.add();
-				System.out.println("Ìí¼ÓÁË" + (i + 1) + "¸öÔªËØ");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½" + (i + 1) + "ï¿½ï¿½Ôªï¿½ï¿½");
 				Thread.sleep(1000);
 			}
 		} catch (InterruptedException e) {

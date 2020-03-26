@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter03.joinTest1.src.test;
 
-import extthread.MyThread;
+import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
 
 public class Test {
 
@@ -10,9 +10,9 @@ public class Test {
 		threadTest.start();
 
 		// Thread.sleep(?)
-		System.out.println("ÎÒÏëµ±threadTest¶ÔÏóÖ´ĞĞÍê±ÏºóÎÒÔÙÖ´ĞĞ");
-		System.out.println("µ«ÉÏÃæ´úÂëÖĞµÄsleep()ÖĞµÄÖµÓ¦¸ÃĞ´¶àÉÙÄØ£¿");
-		System.out.println("´ğ°¸ÊÇ£º¸ù¾İ²»ÄÜÈ·¶¨:)");
+		System.out.println("ï¿½ï¿½ï¿½ëµ±threadTestï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½Ïºï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğµï¿½sleep()ï¿½Ğµï¿½ÖµÓ¦ï¿½ï¿½Ğ´ï¿½ï¿½ï¿½ï¿½ï¿½Ø£ï¿½");
+		System.out.println("ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½İ²ï¿½ï¿½ï¿½È·ï¿½ï¿½:)");
 	}
 
 }

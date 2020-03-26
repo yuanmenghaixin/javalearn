@@ -1,18 +1,18 @@
-package test;
+package multithreaded.chapter06.singleton_8.src.test;
 
 
 public class MyObject {
 
-	private static MyObject instance = null;
+	private static multithreaded.chapter06.singleton_0.src.test.MyObject instance = null;
 
 	private MyObject() {
 	}
 
 	static {
-		instance = new MyObject();
+		instance = new multithreaded.chapter06.singleton_0.src.test.MyObject();
 	}
 
-	public static MyObject getInstance() {
+	public static multithreaded.chapter06.singleton_0.src.test.MyObject getInstance() {
 		return instance;
 	}
 

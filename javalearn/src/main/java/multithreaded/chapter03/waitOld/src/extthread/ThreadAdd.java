@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.waitOld.src.extthread;
 
-import entity.Add;
+import multithreaded.chapter03.waitOld.src.entity.Add;
 
 public class ThreadAdd extends Thread {
 

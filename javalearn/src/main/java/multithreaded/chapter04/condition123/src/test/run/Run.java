@@ -1,4 +1,4 @@
-package test.run;
+package multithreaded.chapter04.condition123.src.test.run;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
