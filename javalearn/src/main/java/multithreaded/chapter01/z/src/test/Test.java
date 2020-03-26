@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter01.z.src.test;
 
-import extthread.MyThread;
+import multithreaded.chapter01.z.src.extthread.MyThread;
 
 public class Test {
 

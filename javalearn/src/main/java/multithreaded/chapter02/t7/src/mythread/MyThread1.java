@@ -1,6 +1,6 @@
-package mythread;
+package multithreaded.chapter02.t7.src.mythread;
 
-import mytask.Task;
+import multithreaded.chapter02.t7.src.mytask.Task;
 
 public class MyThread1 extends Thread {
 

@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.t2.src.service;
 
 public class HasSelfPrivateNum {
 

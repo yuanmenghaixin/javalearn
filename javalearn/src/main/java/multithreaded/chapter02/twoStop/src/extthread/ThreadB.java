@@ -1,6 +1,6 @@
 package extthread;
 
-import service.Service;
+import multithreaded.chapter02.throwExceptionNoLock.src.service.Service;
 
 public class ThreadB extends Thread {
 

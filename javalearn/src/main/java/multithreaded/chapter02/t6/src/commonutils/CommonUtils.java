@@ -1,4 +1,4 @@
-package commonutils;
+package multithreaded.chapter02.t6.src.commonutils;
 
 public class CommonUtils {
 

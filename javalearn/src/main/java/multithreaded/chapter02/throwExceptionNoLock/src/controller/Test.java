@@ -1,8 +1,8 @@
-package controller;
+package multithreaded.chapter02.throwExceptionNoLock.src.controller;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.throwExceptionNoLock.src.service.Service;
+import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadA;
+import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadB;
 
 public class Test {
 

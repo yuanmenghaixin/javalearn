@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter02.t3.src.test;
 
-import entity.PublicVar;
-import extthread.ThreadA;
+import multithreaded.chapter02.t3.src.entity.PublicVar;
+import multithreaded.chapter02.t3.src.extthread.ThreadA;
 
 public class Test {
 
@@ -11,7 +11,7 @@ public class Test {
 			ThreadA thread = new ThreadA(publicVarRef);
 			thread.start();
 
-			Thread.sleep(200);// ´òÓ¡½á¹ûÊÜ´ËÖµ´óĞ¡Ó°Ïì
+			Thread.sleep(200);// ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½Ü´ï¿½Öµï¿½ï¿½Ğ¡Ó°ï¿½ï¿½
 
 			publicVarRef.getValue();
 		} catch (InterruptedException e) {

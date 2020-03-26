@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter02.twoObjectTwoLock.src.test;
 
-import service.HasSelfPrivateNum;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.twoObjectTwoLock.src.service.HasSelfPrivateNum;
+import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
+import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadB;
 
 public class Run {
 

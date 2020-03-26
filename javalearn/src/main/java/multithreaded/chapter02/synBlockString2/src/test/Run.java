@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter02.synBlockString2.src.test;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.synBlockString2.src.service.Service;
+import multithreaded.chapter02.synBlockString2.src.extthread.ThreadA;
+import multithreaded.chapter02.synBlockString2.src.extthread.ThreadB;
 
 public class Run {
 

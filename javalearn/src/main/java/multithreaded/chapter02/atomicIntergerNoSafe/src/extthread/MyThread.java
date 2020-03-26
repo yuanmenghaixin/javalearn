@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.atomicIntergerNoSafe.src.extthread;
 
-import service.MyService;
+import multithreaded.chapter02.atomicIntergerNoSafe.src.service.MyService;
 
 public class MyThread extends Thread {
 	private MyService mySerivce;

@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter02.innerClass.src.test;
 
-import test.PublicClass.PrivateClass;
+import multithreaded.chapter02.innerClass.src.test.PublicClass.PrivateClass;
 
 public class Run {
 

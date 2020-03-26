@@ -1,24 +1,24 @@
-package service;
+package multithreaded.chapter02.synNotExtends.src.service;
 
 public class Service {
 
 	synchronized public static void printA() {
 		try {
-			System.out.println("Ïß³ÌÃû³ÆÎª£º" + Thread.currentThread().getName()
-					+ "ÔÚ" + System.currentTimeMillis() + "½øÈëprintA");
+			System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + Thread.currentThread().getName()
+					+ "ï¿½ï¿½" + System.currentTimeMillis() + "ï¿½ï¿½ï¿½ï¿½printA");
 			Thread.sleep(3000);
-			System.out.println("Ïß³ÌÃû³ÆÎª£º" + Thread.currentThread().getName()
-					+ "ÔÚ" + System.currentTimeMillis() + "Àë¿ªprintA");
+			System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + Thread.currentThread().getName()
+					+ "ï¿½ï¿½" + System.currentTimeMillis() + "ï¿½ë¿ªprintA");
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
 
 	synchronized public static void printB() {
-		System.out.println("Ïß³ÌÃû³ÆÎª£º" + Thread.currentThread().getName() + "ÔÚ"
-				+ System.currentTimeMillis() + "½øÈëprintB");
-		System.out.println("Ïß³ÌÃû³ÆÎª£º" + Thread.currentThread().getName() + "ÔÚ"
-				+ System.currentTimeMillis() + "Àë¿ªprintB");
+		System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + Thread.currentThread().getName() + "ï¿½ï¿½"
+				+ System.currentTimeMillis() + "ï¿½ï¿½ï¿½ï¿½printB");
+		System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + Thread.currentThread().getName() + "ï¿½ï¿½"
+				+ System.currentTimeMillis() + "ï¿½ë¿ªprintB");
 	}
 
 }

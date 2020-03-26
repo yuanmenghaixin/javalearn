@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.synchronizedUpdateNewValue.src.service;
 
 public class Service {
 
@@ -10,7 +10,7 @@ public class Service {
 			synchronized (anyString) {
 			}
 		}
-		System.out.println("Í£ÏÂÀ´ÁË£¡");
+		System.out.println("Í£ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½");
 	}
 
 	public void stopMethod() {

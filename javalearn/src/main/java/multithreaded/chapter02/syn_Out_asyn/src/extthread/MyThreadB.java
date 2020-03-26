@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.syn_Out_asyn.src.extthread;
 
-import mylist.MyList;
+import multithreaded.chapter02.syn_Out_asyn.src.mylist.MyList;
 
 public class MyThreadB extends Thread {
 

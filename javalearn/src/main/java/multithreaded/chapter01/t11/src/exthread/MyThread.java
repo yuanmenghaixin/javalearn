@@ -1,4 +1,4 @@
-package exthread;
+package multithreaded.chapter01.t11.src.exthread;
 
 public class MyThread extends Thread {
 	@Override

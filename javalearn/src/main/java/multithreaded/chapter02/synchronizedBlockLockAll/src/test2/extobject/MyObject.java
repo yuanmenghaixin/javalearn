@@ -1,4 +1,4 @@
-package test2.extobject;
+package multithreaded.chapter02.synchronizedBlockLockAll.src.test2.extobject;
 
 public class MyObject {
 	synchronized public void speedPrintString() {

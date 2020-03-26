@@ -1,18 +1,18 @@
-package extthread;
+package multithreaded.chapter02.synchronizedOneThreadIn.src.extthread;
 
-import service.ObjectService;
+import multithreaded.chapter02.synchronizedOneThreadIn.src.service.ObjectService;
 
 public class ThreadB extends Thread {
-	private ObjectService service;
+    private ObjectService service;
 
-	public ThreadB(ObjectService service) {
-		super();
-		this.service = service;
-	}
+    public ThreadB(ObjectService service) {
+        super();
+        this.service = service;
+    }
 
-	@Override
-	public void run() {
-		super.run();
-		service.serviceMethod();
-	}
+    @Override
+    public void run() {
+        super.run();
+        service.serviceMethod();
+    }
 }

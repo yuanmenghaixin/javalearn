@@ -1,4 +1,4 @@
-package entity;
+package multithreaded.chapter02.setNewPropertiesLockOne.src.entity;
 
 public class Userinfo {
 	private String username;

@@ -1,4 +1,4 @@
-package printstring;
+package multithreaded.chapter02.t10.src.printstring;
 
 public class PrintString implements Runnable {
 

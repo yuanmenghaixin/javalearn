@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter02.deadLockTest.src.test;
 
 public class DealThread implements Runnable {
 
@@ -22,7 +22,7 @@ public class DealThread implements Runnable {
 					e.printStackTrace();
 				}
 				synchronized (lock2) {
-					System.out.println("°´lock1->lock2´úÂëË³ÐòÖ´ÐÐÁË");
+					System.out.println("ï¿½ï¿½lock1->lock2ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½");
 				}
 			}
 		}
@@ -36,7 +36,7 @@ public class DealThread implements Runnable {
 					e.printStackTrace();
 				}
 				synchronized (lock1) {
-					System.out.println("°´lock2->lock1´úÂëË³ÐòÖ´ÐÐÁË");
+					System.out.println("ï¿½ï¿½lock2->lock1ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½");
 				}
 			}
 		}

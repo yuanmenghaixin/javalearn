@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.doubleSynBlockOneTwo.src.extthread;
 
-import service.ObjectService;
+import multithreaded.chapter02.doubleSynBlockOneTwo.src.service.ObjectService;
 
 public class ThreadB extends Thread {
 	private ObjectService service;

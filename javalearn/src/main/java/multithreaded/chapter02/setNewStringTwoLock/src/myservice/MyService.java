@@ -1,4 +1,4 @@
-package myservice;
+package multithreaded.chapter02.setNewStringTwoLock.src.myservice;
 
 public class MyService {
 	private String lock = "123";

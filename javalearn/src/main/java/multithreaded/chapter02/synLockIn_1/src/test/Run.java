@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter02.synLockIn_1.src.test;
 
-import extthread.MyThread;
+import multithreaded.chapter02.synLockIn_1.src.extthread.MyThread;
 
 public class Run {
 	public static void main(String[] args) {

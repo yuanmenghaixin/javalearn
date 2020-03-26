@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.synTwoLock.src.extthread;
 
-import service.Service;
+import multithreaded.chapter02.synTwoLock.src.service.Service;
 
 public class ThreadA extends Thread {
 	private Service service;

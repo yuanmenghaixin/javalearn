@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter01.z.src.extthread;
 
 public class MyThread extends Thread {
 

@@ -2,9 +2,9 @@ package multithreaded.chapter01.stopThrowLock.src.testpackage;
 
 public class MyThread extends Thread {
 
-	private testpackage.SynchronizedObject object;
+	private  multithreaded.chapter01.stopThrowLock.src.testpackage.SynchronizedObject object;
 
-	public MyThread(testpackage.SynchronizedObject object) {
+	public MyThread( multithreaded.chapter01.stopThrowLock.src.testpackage.SynchronizedObject object) {
 		super();
 		this.object = object;
 	}

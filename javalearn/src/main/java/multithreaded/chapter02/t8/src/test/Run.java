@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter02.t8.src.test;
 
-import mytask.Task;
-import mythread.MyThread1;
-import mythread.MyThread2;
+import multithreaded.chapter02.t8.src.mytask.Task;
+import multithreaded.chapter02.t8.src.mythread.MyThread1;
+import multithreaded.chapter02.t8.src.mythread.MyThread2;
 
 public class Run {
 

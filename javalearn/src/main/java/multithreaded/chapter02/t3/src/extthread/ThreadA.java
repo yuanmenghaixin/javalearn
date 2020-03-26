@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.t3.src.extthread;
 
-import entity.PublicVar;
+import multithreaded.chapter02.t3.src.entity.PublicVar;
 
 public class ThreadA extends Thread {
 

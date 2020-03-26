@@ -1,4 +1,4 @@
-package service;
+package  multithreaded.chapter02.synchronizedOneThreadIn.src.service;
 
 public class ObjectService {
 

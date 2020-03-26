@@ -1,7 +1,6 @@
 package multithreaded.chapter01.currentThreadExt.src.test;
 
-import mythread.CountOperate;
-
+import multithreaded.chapter01.currentThreadExt.src.mythread.CountOperate;
 public class Run {
 
 	public static void main(String[] args) {

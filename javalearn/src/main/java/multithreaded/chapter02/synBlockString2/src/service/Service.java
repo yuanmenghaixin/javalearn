@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.synBlockString2.src.service;
 
 public class Service {
 

@@ -1,9 +1,9 @@
-package test2.run;
+package multithreaded.chapter02.synchronizedBlockLockAll.src.test2.run;
 
-import test2.extobject.MyObject;
-import test2.extthread.ThreadA;
-import test2.extthread.ThreadB;
-import test2.service.Service;
+import multithreaded.chapter02.synchronizedBlockLockAll.src.test2.extobject.MyObject;
+import multithreaded.chapter02.synchronizedBlockLockAll.src.test2.extthread.ThreadA;
+import multithreaded.chapter02.synchronizedBlockLockAll.src.test2.extthread.ThreadB;
+import multithreaded.chapter02.synchronizedBlockLockAll.src.test2.service.Service;
 
 public class Run {
 

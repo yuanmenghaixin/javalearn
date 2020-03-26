@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.setNewStringTwoLock.src.extthread;
 
-import myservice.MyService;
+import multithreaded.chapter02.setNewStringTwoLock.src.myservice.MyService;
 
 public class ThreadA extends Thread {
 

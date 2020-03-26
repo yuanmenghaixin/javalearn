@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter02.AtomicIntegerTest.src.test;
 
-import extthread.AddCountThread;
+import  multithreaded.chapter02.AtomicIntegerTest.src.extthread.AddCountThread;
 
 public class Run {
 

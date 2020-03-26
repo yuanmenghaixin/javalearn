@@ -1,6 +1,6 @@
 package multithreaded.chapter01.t2.src.test;
 
-import myrunnable.MyRunnable;
+import multithreaded.chapter01.t2.src.myrunnable.MyRunnable;
 
 public class Run {
 

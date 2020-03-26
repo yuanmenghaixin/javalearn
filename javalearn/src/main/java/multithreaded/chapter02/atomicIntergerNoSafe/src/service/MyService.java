@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.atomicIntergerNoSafe.src.service;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -7,7 +7,7 @@ public class MyService {
 	public static AtomicLong aiRef = new AtomicLong();
 
 	synchronized public void addNum() {
-		System.out.println(Thread.currentThread().getName() + "¼ÓÁË100Ö®ºóµÄÖµÊÇ:"
+		System.out.println(Thread.currentThread().getName() + "ï¿½ï¿½ï¿½ï¿½100Ö®ï¿½ï¿½ï¿½Öµï¿½ï¿½:"
 				+ aiRef.addAndGet(100));
 		aiRef.addAndGet(1);
 	}

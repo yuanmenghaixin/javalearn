@@ -1,6 +1,6 @@
-package service;
+package multithreaded.chapter02.setNewPropertiesLockOne.src.service;
 
-import entity.Userinfo;
+import multithreaded.chapter02.setNewPropertiesLockOne.src.entity.Userinfo;
 
 public class Service {
 

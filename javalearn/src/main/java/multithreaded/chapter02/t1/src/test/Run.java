@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter02.t1.src.test;
 
-import service.HasSelfPrivateNum;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.t1.src.service.HasSelfPrivateNum;
+import multithreaded.chapter02.t1.src.extthread.ThreadA;
+import multithreaded.chapter02.t1.src.extthread.ThreadB;
 
 public class Run {
 

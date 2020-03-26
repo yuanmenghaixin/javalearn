@@ -1,4 +1,4 @@
-package exthread;
+package multithreaded.chapter01.t15.src.exthread;
 
 public class MyThread extends Thread {
 	@Override
@@ -12,7 +12,7 @@ public class MyThread extends Thread {
 			Thread.sleep(200000);
 			System.out.println("run end");
 		} catch (InterruptedException e) {
-			System.out.println("ÏÈÍ£Ö¹£¬ÔÙÓöµ½ÁËsleep!½øÈëcatch!");
+			System.out.println("ï¿½ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sleep!ï¿½ï¿½ï¿½ï¿½catch!");
 			e.printStackTrace();
 		}
 	}

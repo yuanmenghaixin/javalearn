@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter02.syn_Out_asyn.src.test;
 
-import mylist.MyList;
-import extthread.MyThreadA;
-import extthread.MyThreadB;
+import multithreaded.chapter02.syn_Out_asyn.src.mylist.MyList;
+import multithreaded.chapter02.syn_Out_asyn.src.extthread.MyThreadA;
+import multithreaded.chapter02.syn_Out_asyn.src.extthread.MyThreadB;
 
 public class Test {
 

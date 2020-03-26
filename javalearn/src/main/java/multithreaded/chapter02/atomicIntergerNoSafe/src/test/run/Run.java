@@ -1,7 +1,7 @@
-package test.run;
+package multithreaded.chapter02.atomicIntergerNoSafe.src.test.run;
 
-import service.MyService;
-import extthread.MyThread;
+import multithreaded.chapter02.atomicIntergerNoSafe.src.service.MyService;
+import multithreaded.chapter02.atomicIntergerNoSafe.src.extthread.MyThread;
 
 public class Run {
 

@@ -1,4 +1,4 @@
-package mylist;
+package multithreaded.chapter02.syn_Out_asyn.src.mylist;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,18 +9,18 @@ public class MyList {
 
 	synchronized public void add(String username) {
 		System.out.println("ThreadName=" + Thread.currentThread().getName()
-				+ "Ö´ÐÐÁËadd·½·¨£¡");
+				+ "Ö´ï¿½ï¿½ï¿½ï¿½addï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		list.add(username);
 		System.out.println("ThreadName=" + Thread.currentThread().getName()
-				+ "ÍË³öÁËadd·½·¨£¡");
+				+ "ï¿½Ë³ï¿½ï¿½ï¿½addï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	}
 
 	synchronized public int getSize() {
 		System.out.println("ThreadName=" + Thread.currentThread().getName()
-				+ "Ö´ÐÐÁËgetSize·½·¨£¡");
+				+ "Ö´ï¿½ï¿½ï¿½ï¿½getSizeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		int sizeValue = list.size();
 		System.out.println("ThreadName=" + Thread.currentThread().getName()
-				+ "ÍË³öÁËgetSize·½·¨£¡");
+				+ "ï¿½Ë³ï¿½ï¿½ï¿½getSizeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		return sizeValue;
 	}
 

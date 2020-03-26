@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter02.t9.src.test;
 
-import mylist.MyOneList;
-import mythread.MyThread1;
-import mythread.MyThread2;
+import multithreaded.chapter02.t9.src.mylist.MyOneList;
+import multithreaded.chapter02.t9.src.mythread.MyThread1;
+import multithreaded.chapter02.t9.src.mythread.MyThread2;
 
 public class Run {
 

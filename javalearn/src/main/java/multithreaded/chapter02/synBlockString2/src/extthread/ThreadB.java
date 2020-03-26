@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.synBlockString2.src.extthread;
 
-import service.Service;
+import multithreaded.chapter02.synBlockString2.src.service.Service;
 
 public class ThreadB extends Thread {
 

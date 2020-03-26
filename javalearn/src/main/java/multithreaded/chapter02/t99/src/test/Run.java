@@ -1,13 +1,13 @@
-package test;
+package multithreaded.chapter02.t99.src.test;
 
-import printstring.PrintString;
+import multithreaded.chapter02.t10.src.printstring.PrintString;
 
 public class Run {
 
 	public static void main(String[] args) {
 		PrintString printStringService = new PrintString();
 		printStringService.printStringMethod();
-		System.out.println("ÎÒÒªÍ£Ö¹Ëü£¡stopThread="
+		System.out.println("ï¿½ï¿½ÒªÍ£Ö¹ï¿½ï¿½ï¿½ï¿½stopThread="
 				+ Thread.currentThread().getName());
 		printStringService.setContinuePrint(false);
 	}

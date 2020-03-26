@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter02.synchronizedUpdateNewValue.src.test;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.synchronizedUpdateNewValue.src.service.Service;
+import multithreaded.chapter02.synchronizedUpdateNewValue.src.extthread.ThreadA;
+import multithreaded.chapter02.synchronizedUpdateNewValue.src.extthread.ThreadB;
 
 public class Run {
 
@@ -18,7 +18,7 @@ public class Run {
 			ThreadB b = new ThreadB(service);
 			b.start();
 
-			System.out.println("ÒÑ¾­·¢ÆðÍ£Ö¹µÄÃüÁîÁË£¡");
+			System.out.println("ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

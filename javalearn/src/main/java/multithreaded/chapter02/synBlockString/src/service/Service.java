@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.synBlockString.src.service;
 
 public class Service {
 
@@ -9,13 +9,13 @@ public class Service {
 		try {
 			String anyString = new String();
 			synchronized (anyString) {
-				System.out.println("Ïß³ÌÃû³ÆÎª£º" + Thread.currentThread().getName()
-						+ "ÔÚ" + System.currentTimeMillis() + "½øÈëÍ¬²½¿é");
+				System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + Thread.currentThread().getName()
+						+ "ï¿½ï¿½" + System.currentTimeMillis() + "ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½");
 				usernameParam = username;
 				Thread.sleep(3000);
 				passwordParam = password;
-				System.out.println("Ïß³ÌÃû³ÆÎª£º" + Thread.currentThread().getName()
-						+ "ÔÚ" + System.currentTimeMillis() + "Àë¿ªÍ¬²½¿é");
+				System.out.println("ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + Thread.currentThread().getName()
+						+ "ï¿½ï¿½" + System.currentTimeMillis() + "ï¿½ë¿ªÍ¬ï¿½ï¿½ï¿½ï¿½");
 			}
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block

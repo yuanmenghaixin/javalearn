@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.twoNoStop.src.extthread;
 
-import service.Service;
+import multithreaded.chapter02.twoNoStop.src.service.Service;
 
 public class ThreadA extends Thread {
 

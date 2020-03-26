@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter02.AtomicIntegerTest.src.extthread;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

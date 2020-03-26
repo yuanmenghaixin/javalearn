@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.StringAndSyn.src.service;
 
 public class Service {
 	public static void print(String stringParam) {

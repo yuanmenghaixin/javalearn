@@ -1,4 +1,4 @@
-package exthread;
+package multithreaded.chapter01.t14.src.exthread;
 
 public class MyThread extends Thread {
 	@Override
@@ -9,7 +9,7 @@ public class MyThread extends Thread {
 			Thread.sleep(200000);
 			System.out.println("run end");
 		} catch (InterruptedException e) {
-			System.out.println("ÔÚ³ÁË¯ÖÐ±»Í£Ö¹!½øÈëcatch!"+this.isInterrupted());
+			System.out.println("ï¿½Ú³ï¿½Ë¯ï¿½Ð±ï¿½Í£Ö¹!ï¿½ï¿½ï¿½ï¿½catch!"+this.isInterrupted());
 			e.printStackTrace();
 		}
 	}

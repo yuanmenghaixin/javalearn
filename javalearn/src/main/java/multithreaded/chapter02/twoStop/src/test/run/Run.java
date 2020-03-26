@@ -1,8 +1,8 @@
 package test.run;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.throwExceptionNoLock.src.service.Service;
+import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
+import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadB;
 
 public class Run {
 

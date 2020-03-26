@@ -1,4 +1,4 @@
-package entity;
+package multithreaded.chapter02.t3.src.entity;
 
 public class PublicVar {
 

@@ -1,7 +1,7 @@
-package extthread;
+package multithreaded.chapter02.setNewPropertiesLockOne.src.extthread;
 
-import service.Service;
-import entity.Userinfo;
+import multithreaded.chapter02.setNewPropertiesLockOne.src.service.Service;
+import multithreaded.chapter02.setNewPropertiesLockOne.src.entity.Userinfo;
 
 public class ThreadB extends Thread {
 

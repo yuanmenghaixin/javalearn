@@ -1,4 +1,4 @@
-package mytask;
+package multithreaded.chapter02.t7.src.mytask;
 
 public class Task {
 

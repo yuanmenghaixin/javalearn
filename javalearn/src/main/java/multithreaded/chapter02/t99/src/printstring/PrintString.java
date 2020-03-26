@@ -1,4 +1,4 @@
-package printstring;
+package multithreaded.chapter02.t99.src.printstring;
 
 public class PrintString {
 

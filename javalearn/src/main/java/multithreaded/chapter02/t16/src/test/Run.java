@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter02.t16.src.test;
 
-import extthread.RunThread;
+import multithreaded.chapter02.t16.src.extthread.RunThread;
 
 public class Run {
 	public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Run {
 			thread.start();
 			Thread.sleep(1000);
 			thread.setRunning(false);
-			System.out.println("已经赋值为false");
+			System.out.println("锟窖撅拷锟斤拷值为false");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,8 +1,8 @@
-package test.run;
+package multithreaded.chapter02.setNewStringTwoLock.src.test.run;
 
-import myservice.MyService;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.setNewStringTwoLock.src.myservice.MyService;
+import multithreaded.chapter02.setNewStringTwoLock.src.extthread.ThreadA;
+import multithreaded.chapter02.setNewStringTwoLock.src.extthread.ThreadB;
 
 public class Run1 {
 
@@ -17,7 +17,7 @@ public class Run1 {
 		b.setName("B");
 
 		a.start();
-		Thread.sleep(50);// ´æÔÚ50ºÁÃë
+		Thread.sleep(50);// ï¿½ï¿½ï¿½ï¿½50ï¿½ï¿½ï¿½ï¿½
 		b.start();
 	}
 }

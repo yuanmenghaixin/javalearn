@@ -1,6 +1,6 @@
-package test;
+package multithreaded.chapter02.innerTest1.src.test;
 
-import test.OutClass.Inner;
+import multithreaded.chapter02.innerTest1.src.test.OutClass.Inner;
 
 public class Run {
 	public static void main(String[] args) {

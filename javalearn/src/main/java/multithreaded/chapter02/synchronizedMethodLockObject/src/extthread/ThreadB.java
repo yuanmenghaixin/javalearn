@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.synchronizedMethodLockObject.src.extthread;
 
-import extobject.MyObject;
+import multithreaded.chapter02.synchronizedMethodLockObject.src.extobject.MyObject;
 
 public class ThreadB extends Thread {
 

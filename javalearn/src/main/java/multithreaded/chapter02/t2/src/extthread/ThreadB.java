@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.t2.src.extthread;
 
-import service.HasSelfPrivateNum;
+import multithreaded.chapter02.t2.src.service.HasSelfPrivateNum;
 
 public class ThreadB extends Thread {
 

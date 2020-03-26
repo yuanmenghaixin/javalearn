@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.synchronizedOneThreadIn.src.extthread;
 
-import service.ObjectService;
+import multithreaded.chapter02.synchronizedOneThreadIn.src.service.ObjectService;
 
 public class ThreadA extends Thread {
 

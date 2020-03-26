@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter02.innerClass.src.test;
 
 public class PublicClass {
 

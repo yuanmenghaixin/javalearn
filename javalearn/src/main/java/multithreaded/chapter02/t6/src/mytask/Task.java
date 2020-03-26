@@ -1,4 +1,4 @@
-package mytask;
+package multithreaded.chapter02.t6.src.mytask;
 
 public class Task {
 
@@ -10,9 +10,9 @@ public class Task {
 			System.out.println("begin task");
 			Thread.sleep(3000);
 
-			String privateGetData1 = "长时间处理任务后从远程返回的值1 threadName="
+			String privateGetData1 = "锟斤拷时锟戒处锟斤拷锟斤拷锟斤拷锟斤拷远锟教凤拷锟截碉拷值1 threadName="
 					+ Thread.currentThread().getName();
-			String privateGetData2 = "长时间处理任务后从远程返回的值2 threadName="
+			String privateGetData2 = "锟斤拷时锟戒处锟斤拷锟斤拷锟斤拷锟斤拷远锟教凤拷锟截碉拷值2 threadName="
 					+ Thread.currentThread().getName();
 
 			synchronized (this) {

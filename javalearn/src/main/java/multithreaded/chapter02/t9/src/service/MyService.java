@@ -1,6 +1,6 @@
-package service;
+package multithreaded.chapter02.t9.src.service;
 
-import mylist.MyOneList;
+import multithreaded.chapter02.t9.src.mylist.MyOneList;
 
 public class MyService {
 

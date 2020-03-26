@@ -1,6 +1,6 @@
 package multithreaded.chapter01.isaliveOtherTest.src.test;
 
-import mythread.CountOperate;
+import multithreaded.chapter01.isaliveOtherTest.src.mythread.CountOperate;
 
 public class Run {
 

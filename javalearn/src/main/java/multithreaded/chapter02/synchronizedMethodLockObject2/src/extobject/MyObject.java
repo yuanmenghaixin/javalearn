@@ -1,4 +1,4 @@
-package extobject;
+package multithreaded.chapter02.synchronizedMethodLockObject2.src.extobject;
 
 public class MyObject {
 

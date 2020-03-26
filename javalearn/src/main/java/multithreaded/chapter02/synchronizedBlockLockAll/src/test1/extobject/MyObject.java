@@ -1,4 +1,4 @@
-package test1.extobject;
+package multithreaded.chapter02.synchronizedBlockLockAll.src.test1.extobject;
 
 public class MyObject {
 }

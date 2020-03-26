@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter02.synBlockMoreObjectOneLock.src.test;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.synBlockMoreObjectOneLock.src.service.Service;
+import multithreaded.chapter02.synBlockMoreObjectOneLock.src.extthread.ThreadA;
+import multithreaded.chapter02.synBlockMoreObjectOneLock.src.extthread.ThreadB;
 
 public class Run {
 

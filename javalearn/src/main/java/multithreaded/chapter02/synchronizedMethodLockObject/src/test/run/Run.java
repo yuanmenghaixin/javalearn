@@ -1,8 +1,8 @@
-package test.run;
+package multithreaded.chapter02.synchronizedMethodLockObject.src.test.run;
 
-import extobject.MyObject;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.synchronizedMethodLockObject.src.extobject.MyObject;
+import multithreaded.chapter02.synchronizedMethodLockObject.src.extthread.ThreadA;
+import multithreaded.chapter02.synchronizedMethodLockObject.src.extthread.ThreadB;
 
 public class Run {
 

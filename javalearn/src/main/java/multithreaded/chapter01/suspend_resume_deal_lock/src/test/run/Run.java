@@ -1,6 +1,6 @@
 package multithreaded.chapter01.suspend_resume_deal_lock.src.test.run;
 
-import testpackage.SynchronizedObject;
+import multithreaded.chapter01.suspend_resume_deal_lock.src.testpackage.SynchronizedObject;
 
 public class Run {
 

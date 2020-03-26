@@ -1,11 +1,11 @@
-package test;
+package multithreaded.chapter02.innerTest2.src.test;
 
 public class OutClass {
 	static class InnerClass1 {
 		public void method1(InnerClass2 class2) {
 			String threadName = Thread.currentThread().getName();
 			synchronized (class2) {
-				System.out.println(threadName + " ½øÈëInnerClass1ÀàÖÐµÄmethod1·½·¨");
+				System.out.println(threadName + " ï¿½ï¿½ï¿½ï¿½InnerClass1ï¿½ï¿½ï¿½Ðµï¿½method1ï¿½ï¿½ï¿½ï¿½");
 				for (int i = 0; i < 10; i++) {
 					System.out.println("i=" + i);
 					try {
@@ -14,13 +14,13 @@ public class OutClass {
 
 					}
 				}
-				System.out.println(threadName + " Àë¿ªInnerClass1ÀàÖÐµÄmethod1·½·¨");
+				System.out.println(threadName + " ï¿½ë¿ªInnerClass1ï¿½ï¿½ï¿½Ðµï¿½method1ï¿½ï¿½ï¿½ï¿½");
 			}
 		}
 
 		public synchronized void method2() {
 			String threadName = Thread.currentThread().getName();
-			System.out.println(threadName + " ½øÈëInnerClass1ÀàÖÐµÄmethod2·½·¨");
+			System.out.println(threadName + " ï¿½ï¿½ï¿½ï¿½InnerClass1ï¿½ï¿½ï¿½Ðµï¿½method2ï¿½ï¿½ï¿½ï¿½");
 			for (int j = 0; j < 10; j++) {
 				System.out.println("j=" + j);
 				try {
@@ -29,14 +29,14 @@ public class OutClass {
 
 				}
 			}
-			System.out.println(threadName + " Àë¿ªInnerClass1ÀàÖÐµÄmethod2·½·¨");
+			System.out.println(threadName + " ï¿½ë¿ªInnerClass1ï¿½ï¿½ï¿½Ðµï¿½method2ï¿½ï¿½ï¿½ï¿½");
 		}
 	}
 
 	static class InnerClass2 {
 		public synchronized void method1() {
 			String threadName = Thread.currentThread().getName();
-			System.out.println(threadName + " ½øÈëInnerClass2ÀàÖÐµÄmethod1·½·¨");
+			System.out.println(threadName + " ï¿½ï¿½ï¿½ï¿½InnerClass2ï¿½ï¿½ï¿½Ðµï¿½method1ï¿½ï¿½ï¿½ï¿½");
 			for (int k = 0; k < 10; k++) {
 				System.out.println("k=" + k);
 				try {
@@ -45,7 +45,7 @@ public class OutClass {
 
 				}
 			}
-			System.out.println(threadName + " Àë¿ªInnerClass2ÀàÖÐµÄmethod1·½·¨");
+			System.out.println(threadName + " ï¿½ë¿ªInnerClass2ï¿½ï¿½ï¿½Ðµï¿½method1ï¿½ï¿½ï¿½ï¿½");
 		}
 	}
 }

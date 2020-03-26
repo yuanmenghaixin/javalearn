@@ -1,9 +1,9 @@
-package test.run;
+package multithreaded.chapter02.setNewPropertiesLockOne.src.test.run;
 
-import service.Service;
-import entity.Userinfo;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.setNewPropertiesLockOne.src.service.Service;
+import multithreaded.chapter02.setNewPropertiesLockOne.src.entity.Userinfo;
+import multithreaded.chapter02.setNewPropertiesLockOne.src.extthread.ThreadA;
+import multithreaded.chapter02.setNewPropertiesLockOne.src.extthread.ThreadB;
 
 public class Run {
 

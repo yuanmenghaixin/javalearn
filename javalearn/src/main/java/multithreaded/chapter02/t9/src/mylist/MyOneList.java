@@ -1,4 +1,4 @@
-package mylist;
+package multithreaded.chapter02.t9.src.mylist;
 
 import java.util.ArrayList;
 import java.util.List;

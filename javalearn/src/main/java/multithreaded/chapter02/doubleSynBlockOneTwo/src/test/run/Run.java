@@ -1,8 +1,8 @@
-package test.run;
+package multithreaded.chapter02.doubleSynBlockOneTwo.src.test.run;
 
-import service.ObjectService;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.doubleSynBlockOneTwo.src.service.ObjectService;
+import multithreaded.chapter02.doubleSynBlockOneTwo.src.extthread.ThreadA;
+import multithreaded.chapter02.doubleSynBlockOneTwo.src.extthread.ThreadB;
 
 public class Run {
 

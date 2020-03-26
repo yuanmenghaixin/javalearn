@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter02.innerTest2.src.test;
 
-import test.OutClass.InnerClass1;
-import test.OutClass.InnerClass2;
+import multithreaded.chapter02.innerTest2.src.test.OutClass.InnerClass1;
+import multithreaded.chapter02.innerTest2.src.test.OutClass.InnerClass2;
 
 public class Run {
 

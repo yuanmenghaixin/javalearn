@@ -1,6 +1,6 @@
 package multithreaded.chapter01.suspend_resume_test.src.test.run;
 
-import mythread.MyThread;
+import multithreaded.chapter01.suspend_resume_test.src.mythread.MyThread;
 
 public class Run {
 

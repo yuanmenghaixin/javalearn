@@ -1,4 +1,4 @@
-package myservice;
+package  multithreaded.chapter02.synLockIn_2.src.myservice;
 
 public class Sub extends Main {
 

@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter02.synLockIn_1.src.extthread;
 
-import myservice.Service;
+import multithreaded.chapter02.synLockIn_1.src.myservice.Service;
 
 public class MyThread extends Thread {
 	@Override

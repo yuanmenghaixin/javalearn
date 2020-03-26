@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter02.t16.src.extthread;
 
 public class RunThread extends Thread {
 
@@ -14,10 +14,10 @@ public class RunThread extends Thread {
 
 	@Override
 	public void run() {
-		System.out.println("½øÈërunÁË");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½runï¿½ï¿½");
 		while (isRunning == true) {
 		}
-		System.out.println("Ïß³Ì±»Í£Ö¹ÁË£¡");
+		System.out.println("ï¿½ß³Ì±ï¿½Í£Ö¹ï¿½Ë£ï¿½");
 	}
 
 }

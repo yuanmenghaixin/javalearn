@@ -1,10 +1,10 @@
-package test;
+package multithreaded.chapter02.innerTest1.src.test;
 
 public class OutClass {
 
 	static class Inner {
 		public void method1() {
-			synchronized ("ÆäËüµÄËø") {
+			synchronized ("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½") {
 				for (int i = 1; i <= 10; i++) {
 					System.out.println(Thread.currentThread().getName() + " i="
 							+ i);

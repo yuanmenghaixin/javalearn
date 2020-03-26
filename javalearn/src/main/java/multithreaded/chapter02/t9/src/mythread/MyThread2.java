@@ -1,7 +1,7 @@
-package mythread;
+package multithreaded.chapter02.t9.src.mythread;
 
-import service.MyService;
-import mylist.MyOneList;
+import multithreaded.chapter02.t9.src.service.MyService;
+import multithreaded.chapter02.t9.src.mylist.MyOneList;
 
 public class MyThread2 extends Thread {
 

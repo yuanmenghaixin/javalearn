@@ -1,7 +1,7 @@
 package multithreaded.chapter01.stopThrowLock.src.test.run;
 
-import testpackage.MyThread;
-import testpackage.SynchronizedObject;
+import  multithreaded.chapter01.stopThrowLock.src.testpackage.MyThread;
+import  multithreaded.chapter01.stopThrowLock.src.testpackage.SynchronizedObject;
 
 public class Run {
 	public static void main(String[] args) {

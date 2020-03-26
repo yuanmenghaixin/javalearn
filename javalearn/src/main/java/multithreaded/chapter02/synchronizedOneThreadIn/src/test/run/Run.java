@@ -1,8 +1,8 @@
-package test.run;
+package  multithreaded.chapter02.synchronizedOneThreadIn.src.test.run;
 
-import service.ObjectService;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.synchronizedOneThreadIn.src.extthread.ThreadA;
+import multithreaded.chapter02.synchronizedOneThreadIn.src.extthread.ThreadB;
+import multithreaded.chapter02.synchronizedOneThreadIn.src.service.ObjectService;
 
 public class Run {
 

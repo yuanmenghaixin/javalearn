@@ -1,8 +1,8 @@
-package controller;
+package multithreaded.chapter02.synNotExtends.src.controller;
 
-import service.Sub;
-import extthread.MyThreadA;
-import extthread.MyThreadB;
+import multithreaded.chapter02.synNotExtends.src.service.Sub;
+import multithreaded.chapter02.synNotExtends.src.extthread.MyThreadA;
+import multithreaded.chapter02.synNotExtends.src.extthread.MyThreadB;
 
 public class Test {
 

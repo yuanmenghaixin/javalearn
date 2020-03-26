@@ -1,6 +1,6 @@
-package test.run;
+package multithreaded.chapter01.useReturnInterrupt.src.test.run;
 
-import extthread.MyThread;
+import multithreaded.chapter01.useReturnInterrupt.src.extthread.MyThread;
 
 public class Run {
 

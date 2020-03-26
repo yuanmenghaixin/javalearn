@@ -1,4 +1,4 @@
-package exthread;
+package multithreaded.chapter01.t13_1.src.exthread;
 
 public class MyThread extends Thread {
 	@Override
@@ -7,14 +7,14 @@ public class MyThread extends Thread {
 		try {
 			for (int i = 0; i < 500000; i++) {
 				if (this.interrupted()) {
-					System.out.println("ÒÑ¾­ÊÇÍ£Ö¹×´Ì¬ÁË!ÎÒÒªÍË³öÁË!");
+					System.out.println("ï¿½Ñ¾ï¿½ï¿½ï¿½Í£Ö¹×´Ì¬ï¿½ï¿½!ï¿½ï¿½Òªï¿½Ë³ï¿½ï¿½ï¿½!");
 					throw new InterruptedException();
 				}
 				System.out.println("i=" + (i + 1));
 			}
-			System.out.println("ÎÒÔÚforÏÂÃæ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½forï¿½ï¿½ï¿½ï¿½");
 		} catch (InterruptedException e) {
-			System.out.println("½øMyThread.javaÀàrun·½·¨ÖÐµÄcatchÁË£¡");
+			System.out.println("ï¿½ï¿½MyThread.javaï¿½ï¿½runï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½catchï¿½Ë£ï¿½");
 			e.printStackTrace();
 		}
 	}

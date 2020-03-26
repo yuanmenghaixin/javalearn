@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.doubleSynBlockOneTwo.src.service;
 
 public class ObjectService {
 

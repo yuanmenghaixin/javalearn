@@ -1,9 +1,9 @@
-package test;
+package multithreaded.chapter02.synTwoLock.src.test;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
-import extthread.ThreadC;
+import multithreaded.chapter02.synTwoLock.src.service.Service;
+import multithreaded.chapter02.synTwoLock.src.extthread.ThreadA;
+import multithreaded.chapter02.synTwoLock.src.extthread.ThreadB;
+import multithreaded.chapter02.synTwoLock.src.extthread.ThreadC;
 
 public class Run {
 

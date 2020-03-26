@@ -1,10 +1,10 @@
-package test;
+package multithreaded.chapter02.t6.src.test;
 
-import mytask.Task;
-import mythread.MyThread1;
-import mythread.MyThread2;
+import multithreaded.chapter02.t6.src.mytask.Task;
+import multithreaded.chapter02.t6.src.mythread.MyThread1;
+import multithreaded.chapter02.t6.src.mythread.MyThread2;
 
-import commonutils.CommonUtils;
+import multithreaded.chapter02.t6.src.commonutils.CommonUtils;
 
 public class Run {
 
@@ -33,6 +33,6 @@ public class Run {
 			endTime = CommonUtils.endTime2;
 		}
 
-		System.out.println("ºÄÊ±£º" + ((endTime - beginTime) / 1000));
+		System.out.println("ï¿½ï¿½Ê±ï¿½ï¿½" + ((endTime - beginTime) / 1000));
 	}
 }

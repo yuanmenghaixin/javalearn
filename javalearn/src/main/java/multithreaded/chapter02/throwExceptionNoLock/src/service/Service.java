@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.throwExceptionNoLock.src.service;
 
 public class Service {
 	synchronized public void testMethod() {
