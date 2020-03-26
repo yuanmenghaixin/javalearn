@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.waitInterruptException.src.extthread;
 
-import service.Service;
+import multithreaded.chapter02.throwExceptionNoLock.src.service.Service;
 
 public class ThreadA extends Thread {
 

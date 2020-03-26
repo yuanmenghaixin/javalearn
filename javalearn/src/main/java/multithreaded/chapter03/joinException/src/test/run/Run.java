@@ -1,7 +1,7 @@
-package test.run;
+package multithreaded.chapter03.joinException.src.test.run;
 
-import extthread.ThreadB;
-import extthread.ThreadC;
+import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadB;
+import multithreaded.chapter03.join_sleep_1.src.extthread.ThreadC;
 
 public class Run {
 

@@ -1,8 +1,8 @@
-package test;
+package multithreaded.chapter03.ThreadLocalTest.src.test;
 
-import tools.Tools;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter03.InheritableThreadLocal1.src.tools.Tools;
+import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
+import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadB;
 
 public class Run {
 

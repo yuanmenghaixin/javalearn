@@ -1,7 +1,7 @@
-package test.run;
+package multithreaded.chapter03.joinMoreTest.src.test.run;
 
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;
+import multithreaded.chapter02.throwExceptionNoLock.src.extthread.ThreadB;
 
 public class Run1 {
 	public static void main(String[] args) {

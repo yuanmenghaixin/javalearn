@@ -1,6 +1,4 @@
-package extthread;
-
-import service.Service;
+package multithreaded.chapter03.notifyOne.src.extthread;
 
 public class NotifyThread extends Thread {
 	private Object lock;

@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.notifyHoldLock.src.extthread;
 
-import service.Service;
+import multithreaded.chapter02.throwExceptionNoLock.src.service.Service;
 
 public class synNotifyMethodThread extends Thread {
 	private Object lock;

@@ -1,6 +1,6 @@
-package extthread;
+package multithreaded.chapter03.notifyOne.src.extthread;
 
-import service.Service;
+import multithreaded.chapter02.throwExceptionNoLock.src.service.Service;
 
 public class ThreadB extends Thread {
 	private Object lock;

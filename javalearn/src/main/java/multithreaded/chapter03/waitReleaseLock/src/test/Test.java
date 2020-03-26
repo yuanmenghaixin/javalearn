@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter03.waitReleaseLock.src.test;
 
-import extthread.ThreadA;
-import extthread.ThreadB;
+import multithreaded.chapter03.waitReleaseLock.src.extthread.ThreadA;
+import multithreaded.chapter03.waitReleaseLock.src.extthread.ThreadB;
 
 public class Test {
 
