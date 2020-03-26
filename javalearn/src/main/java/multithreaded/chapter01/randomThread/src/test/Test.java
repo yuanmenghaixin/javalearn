@@ -1,6 +1,6 @@
 package multithreaded.chapter01.randomThread.src.test;
 
-import mythread.MyThread;
+import multithreaded.chapter01.randomThread.src.mythread.MyThread;
 
 public class Test {
 	public static void main(String[] args) {

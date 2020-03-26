@@ -1,6 +1,6 @@
 package multithreaded.chapter01.suspend_resume_LockStop.src.test.run;
 
-import mythread.MyThread;
+import multithreaded.chapter07.groupInnerStop.src.mythread.MyThread;
 
 public class Run {
 

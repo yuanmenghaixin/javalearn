@@ -1,7 +1,7 @@
 package multithreaded.chapter01.t20.src.test;
 
-import extthread.MyThread1;
-import extthread.MyThread2;
+import multithreaded.chapter03.test2.src.extthread.MyThread1;
+import multithreaded.chapter03.test2.src.extthread.MyThread2;
 
 public class Run {
 	public static void main(String[] args) {

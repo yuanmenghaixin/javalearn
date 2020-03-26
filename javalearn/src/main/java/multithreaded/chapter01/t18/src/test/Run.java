@@ -1,6 +1,6 @@
 package test;
 
-import extthread.MyThread1;
+import multithreaded.chapter03.test2.src.extthread.MyThread1;
 
 public class Run {
 	public static void main(String[] args) {

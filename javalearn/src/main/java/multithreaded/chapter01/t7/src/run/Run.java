@@ -1,6 +1,6 @@
 package run;
 
-import mythread.MyThread;
+import multithreaded.chapter07.groupInnerStop.src.mythread.MyThread;
 
 public class Run {
 	public static void main(String[] args) {
