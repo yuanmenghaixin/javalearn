@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter02.volatileTestThread.src.extthread;
 
 public class MyThread extends Thread {
 	public static int count;

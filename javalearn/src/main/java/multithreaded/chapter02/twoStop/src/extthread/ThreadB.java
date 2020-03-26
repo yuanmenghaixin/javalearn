@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter02.twoStop.src.extthread;
 
 import multithreaded.chapter02.throwExceptionNoLock.src.service.Service;
 

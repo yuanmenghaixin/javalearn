@@ -1,4 +1,4 @@
-package multithreaded.chapter02.synNotExtends.src.service;
+package multithreaded.chapter02.synStaticMethod.src.service;
 
 public class Service {
 

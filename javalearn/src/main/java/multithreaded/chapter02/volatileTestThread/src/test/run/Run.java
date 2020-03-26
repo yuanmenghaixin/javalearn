@@ -1,6 +1,6 @@
-package test.run;
+package multithreaded.chapter02.volatileTestThread.src.test.run;
 
-import multithreaded.chapter03.isaliveFALSE.src.extthread.MyThread;
+import multithreaded.chapter02.volatileTestThread.src.extthread.MyThread;
 
 public class Run {
 	public static void main(String[] args) {

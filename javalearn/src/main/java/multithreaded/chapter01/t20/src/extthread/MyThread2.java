@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter01.t20.src.extthread;
 
 import java.util.Random;
 
@@ -11,6 +11,6 @@ public class MyThread2 extends Thread {
 			random.nextInt();
 		}
 		long endTime = System.currentTimeMillis();
-		System.out.println("¡î¡î¡î¡î¡îthread 2 use time=" + (endTime - beginTime));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½thread 2 use time=" + (endTime - beginTime));
 	}
 }

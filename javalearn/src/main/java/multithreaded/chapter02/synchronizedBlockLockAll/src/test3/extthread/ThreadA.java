@@ -1,4 +1,4 @@
-package test3.extthread;
+package multithreaded.chapter02.synchronizedBlockLockAll.src.test3.extthread;
 
 import test2.extobject.MyObject;
 import test2.service.Service;

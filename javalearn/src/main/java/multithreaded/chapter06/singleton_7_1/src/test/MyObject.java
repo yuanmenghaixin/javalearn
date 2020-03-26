@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter06.singleton_7_1.src.test;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;

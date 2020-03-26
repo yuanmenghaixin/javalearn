@@ -1,4 +1,4 @@
-package  multithreaded.chapter02.synLockIn_2.src.test;
+package multithreaded.chapter02.synLockIn_2.src.test;
 
 import  multithreaded.chapter02.synLockIn_2.src.extthread.MyThread;
 

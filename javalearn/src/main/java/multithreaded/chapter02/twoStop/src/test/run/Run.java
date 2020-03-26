@@ -1,4 +1,4 @@
-package test.run;
+package multithreaded.chapter02.twoStop.src.test.run;
 
 import multithreaded.chapter02.throwExceptionNoLock.src.service.Service;
 import multithreaded.chapter02.twoNoStop.src.extthread.ThreadA;

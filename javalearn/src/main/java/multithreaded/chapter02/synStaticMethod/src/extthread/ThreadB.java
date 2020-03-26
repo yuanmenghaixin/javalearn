@@ -1,4 +1,4 @@
-package multithreaded.chapter02.synNotExtends.src.extthread;
+package multithreaded.chapter02.synStaticMethod.src.extthread;
 
 import multithreaded.chapter02.synNotExtends.src.service.Service;
 

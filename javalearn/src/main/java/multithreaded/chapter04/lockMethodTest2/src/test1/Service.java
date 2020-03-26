@@ -1,4 +1,4 @@
-package  multithreaded.chapter04.lockMethodTest2.src.test1;
+package multithreaded.chapter04.lockMethodTest2.src.test1;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,8 +1,6 @@
-package test;
+package multithreaded.chapter01.t12.src.test;
 
-import exthread.MyThread;
-
-import exthread.MyThread;
+import multithreaded.chapter01.t12.src.exthread.MyThread;
 
 public class Run3 {
 	public static void main(String[] args) {
@@ -11,8 +9,8 @@ public class Run3 {
 			thread.start();
 			Thread.sleep(1000);
 			thread.interrupt();
-			System.out.println("ÊÇ·ñÍ£Ö¹1£¿="+thread.isInterrupted());
-			System.out.println("ÊÇ·ñÍ£Ö¹2£¿="+thread.isInterrupted());
+			System.out.println("ï¿½Ç·ï¿½Í£Ö¹1ï¿½ï¿½="+thread.isInterrupted());
+			System.out.println("ï¿½Ç·ï¿½Í£Ö¹2ï¿½ï¿½="+thread.isInterrupted());
 		} catch (InterruptedException e) {
 			System.out.println("main catch");
 			e.printStackTrace();

@@ -1,4 +1,4 @@
-package extthread;
+package multithreaded.chapter01.t17.src.extthread;
 
 public class MyThread extends Thread {
 
@@ -11,7 +11,7 @@ public class MyThread extends Thread {
 			count = count + (i + 1);
 		}
 		long endTime = System.currentTimeMillis();
-		System.out.println("ÓÃÊ±£º" + (endTime - beginTime) + "ºÁÃë£¡");
+		System.out.println("ï¿½ï¿½Ê±ï¿½ï¿½" + (endTime - beginTime) + "ï¿½ï¿½ï¿½ë£¡");
 	}
 
 }

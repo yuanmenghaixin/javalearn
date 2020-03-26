@@ -1,4 +1,4 @@
-package service;
+package multithreaded.chapter02.twoStop.src.service;
 
 public class Service {
 	synchronized public void methodA() {

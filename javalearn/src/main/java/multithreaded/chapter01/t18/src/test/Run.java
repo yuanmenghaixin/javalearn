@@ -1,4 +1,4 @@
-package test;
+package multithreaded.chapter01.t18.src.test;
 
 import multithreaded.chapter03.test2.src.extthread.MyThread1;
 

@@ -1,6 +1,6 @@
-package test3.extthread;
+package multithreaded.chapter02.synchronizedBlockLockAll.src.test3.extthread;
 
-import test2.extobject.MyObject;
+import multithreaded.chapter02.synchronizedBlockLockAll.src.test2.extobject.MyObject;
 
 public class ThreadB extends Thread {
 	private MyObject object;

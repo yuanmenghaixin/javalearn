@@ -1,4 +1,4 @@
-package exthread;
+package multithreaded.chapter01.t13forprint.src.exthread;
 
 public class MyThread extends Thread {
 	@Override
@@ -6,11 +6,11 @@ public class MyThread extends Thread {
 		super.run();
 		for (int i = 0; i < 500000; i++) {
 			if (this.interrupted()) {
-				System.out.println("ÒÑ¾­ÊÇÍ£Ö¹×´Ì¬ÁË!ÎÒÒªÍË³öÁË!");
+				System.out.println("ï¿½Ñ¾ï¿½ï¿½ï¿½Í£Ö¹×´Ì¬ï¿½ï¿½!ï¿½ï¿½Òªï¿½Ë³ï¿½ï¿½ï¿½!");
 				break;
 			}
 			System.out.println("i=" + (i + 1));
 		}
-		System.out.println("ÎÒ±»Êä³ö£¬Èç¹û´Ë´úÂëÊÇforÓÖ¼ÌÐøÔËÐÐ£¬Ïß³Ì²¢Î´Í£Ö¹£¡");
+		System.out.println("ï¿½Ò±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë´ï¿½ï¿½ï¿½ï¿½ï¿½forï¿½Ö¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ß³Ì²ï¿½Î´Í£Ö¹ï¿½ï¿½");
 	}
 }

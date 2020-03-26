@@ -1,4 +1,4 @@
-package myrunnable;
+package multithreaded.chapter03.waitHasParamMethod.src.myrunnable;
 
 public class MyRunnable {
 	static private Object lock = new Object();

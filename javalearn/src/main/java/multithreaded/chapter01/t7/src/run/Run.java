@@ -1,4 +1,4 @@
-package run;
+package multithreaded.chapter01.t7.src.run;
 
 import multithreaded.chapter07.groupInnerStop.src.mythread.MyThread;
 

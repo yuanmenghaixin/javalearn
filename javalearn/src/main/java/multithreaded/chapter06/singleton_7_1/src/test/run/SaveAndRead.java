@@ -1,4 +1,4 @@
-package test.run;
+package multithreaded.chapter06.singleton_7_1.src.test.run;
 
 import java.io.File;
 import java.io.FileInputStream;

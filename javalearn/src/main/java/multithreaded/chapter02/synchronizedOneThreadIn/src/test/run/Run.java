@@ -1,4 +1,4 @@
-package  multithreaded.chapter02.synchronizedOneThreadIn.src.test.run;
+package multithreaded.chapter02.synchronizedOneThreadIn.src.test.run;
 
 import multithreaded.chapter02.synchronizedOneThreadIn.src.extthread.ThreadA;
 import multithreaded.chapter02.synchronizedOneThreadIn.src.extthread.ThreadB;

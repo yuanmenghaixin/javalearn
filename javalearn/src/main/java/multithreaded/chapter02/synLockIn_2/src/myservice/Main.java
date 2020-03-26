@@ -1,4 +1,4 @@
-package  multithreaded.chapter02.synLockIn_2.src.myservice;
+package multithreaded.chapter02.synLockIn_2.src.myservice;
 
 public class Main {
 

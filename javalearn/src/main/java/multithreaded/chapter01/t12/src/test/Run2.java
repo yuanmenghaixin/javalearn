@@ -1,14 +1,10 @@
-package test;
-
-import exthread.MyThread;
-
-import exthread.MyThread;
+package multithreaded.chapter01.t12.src.test;
 
 public class Run2 {
 	public static void main(String[] args) {
 		Thread.currentThread().interrupt();
-		System.out.println("ÊÇ·ñÍ£Ö¹1£¿=" + Thread.interrupted());
-		System.out.println("ÊÇ·ñÍ£Ö¹2£¿=" + Thread.interrupted());
+		System.out.println("ï¿½Ç·ï¿½Í£Ö¹1ï¿½ï¿½=" + Thread.interrupted());
+		System.out.println("ï¿½Ç·ï¿½Í£Ö¹2ï¿½ï¿½=" + Thread.interrupted());
 		System.out.println("end!");
 	}
 }

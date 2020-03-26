@@ -1,6 +1,6 @@
-package test3.service;
+package multithreaded.chapter02.synchronizedBlockLockAll.src.test3.service;
 
-import test2.extobject.MyObject;
+import multithreaded.chapter02.synchronizedBlockLockAll.src.test2.extobject.MyObject;
 
 public class Service {
 

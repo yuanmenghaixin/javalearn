@@ -1,6 +1,6 @@
-package run;
+package multithreaded.chapter01.t8.src.run;
 
-import mythread.MyThread1;
+import multithreaded.chapter01.t8.src.mythread.MyThread1;
 
 public class Run1 {
 	public static void main(String[] args) {

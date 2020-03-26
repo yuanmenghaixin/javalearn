@@ -1,7 +1,7 @@
 package multithreaded.chapter02.synStaticMethod.src.test;
 
-import multithreaded.chapter02.synNotExtends.src.extthread.ThreadA;
-import multithreaded.chapter02.synNotExtends.src.extthread.ThreadB;
+import multithreaded.chapter02.synStaticMethod.src.extthread.ThreadA;
+import multithreaded.chapter02.synStaticMethod.src.extthread.ThreadB;
 
 public class Run {
 

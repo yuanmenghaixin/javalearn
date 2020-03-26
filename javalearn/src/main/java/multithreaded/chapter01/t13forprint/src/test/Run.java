@@ -1,7 +1,7 @@
-package test;
+package multithreaded.chapter01.t13forprint.src.test;
 
-import exthread.MyThread;
-import exthread.MyThread;
+import multithreaded.chapter01.t13forprint.src.exthread.MyThread;
+import multithreaded.chapter01.t13forprint.src.exthread.MyThread;
 
 public class Run {
 

@@ -1,6 +1,6 @@
 package multithreaded.chapter01.t13_1.src.test;
 
-import exthread.MyThread;
+import multithreaded.chapter01.t12.src.exthread.MyThread;
 
 public class Run {
 
